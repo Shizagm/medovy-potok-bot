@@ -87,9 +87,10 @@ ADMIN='''Мастер · команды в личной переписке
 /rankfix ID 100 -50 | причина — поправить доход/расход месяца без изменения золота
 /inspire ID 1 — выдать; 0 — снять
 /visit ID — выдать ход за визит (один раз в день)
-/check НОМЕР МОДИФИКАТОР СЛОЖНОСТЬ — мастер бросает d20
-/askroll НОМЕР МОДИФИКАТОР СЛОЖНОСТЬ — назначить игроку кнопку d20
-/record НОМЕР КУБИК МОДИФИКАТОР СЛОЖНОСТЬ — записать бросок за столом
+/check НОМЕР МОДИФИКАТОР СЛОЖНОСТЬ | НАВЫК — мастер бросает d20
+/askroll НОМЕР МОДИФИКАТОР СЛОЖНОСТЬ | НАВЫК — назначить игроку кнопку d20
+/record НОМЕР КУБИК МОДИФИКАТОР СЛОЖНОСТЬ | НАВЫК — записать бросок за столом
+Название навыка после | необязательно. Например: /askroll 2 3 15 | Восприятие. Введи модификатор без штрафа воскрешения.
 Покер стартует автоматически после согласия игроков; мастер не нужен.
 /pokercancel НОМЕР — отменить партию с возвратом ставок
 /item ID | название — добавить предмет
@@ -203,15 +204,49 @@ class Bot(CharacterInterfaceMixin,FeatureInterfaceMixin,InterfaceMixin):
         from character_interface import render_card
         return render_card(self.e.char_snapshot(uid))+'\n\n📒 УЧЁТ ТАВЕРНЫ\n'+self.legacy_profile(uid)
 
+    def check_args(self, tail, count):
+        numbers, sep, label = tail.partition('|')
+        values = tuple(map(int, numbers.split()))
+        if len(values) != count:
+            raise RuleError('Проверь количество чисел в команде проверки.')
+        label = label.strip() if sep else ''
+        if len(label) > 80 or '\n' in label or '\r' in label:
+            raise RuleError('Название проверки: одна строка до 80 символов.')
+        return values, label
+
+    def check_name(self, rid, label):
+        if not label:
+            return
+        r = self.e.req(rid)
+        if r['kind'] != 'action':
+            raise RuleError('Проверка назначается заявке действия.')
+        r['payload']['check_name'] = label
+        self.e.db.execute('UPDATE requests SET payload=? WHERE id=?',
+                          (json.dumps(r['payload'], ensure_ascii=False), rid))
+
+    def check_context(self, rid):
+        r = self.e.req(rid)
+        name = self.e.player(r['a'])['name']
+        label = r['payload'].get('check_name', '')
+        title = '🎲 ' + ('ПРОВЕРКА: ' + label if label else 'ПРОВЕРКА ДЕЙСТВИЯ')
+        return r, title + '\nГерой: ' + name + '\nДействие: ' + r['payload']['text'][:300]
+
     def roll_result(self, rid, result):
-        r=self.e.req(rid); name=self.e.player(r['a'])['name']
-        source='Бросок за столом, записан мастером' if result.get('source')=='table' else 'Бросок бота'
-        msg=(f"🎲 ПРОВЕРКА №{rid} · {name}\n{r['payload']['text'][:300]}\n"
-             f"d20: {result['die']} {result['modifier']:+} = {result['total']}; СЛ {result['dc']}. "
-             +('Успех.' if result['success'] else 'Неудача.')+(f"\nШтраф после воскрешения: {result['penalty']}" if result.get('penalty') else '')+f'\n{source}.')
-        if result.get('source')=='table': self.e.notify(self.group,msg)
-        else: self.e.notify(self.group,'@ANIMATION@'+json.dumps({'file':f"d20-{result['die']:02}.gif",'caption':msg},ensure_ascii=False))
-        self.e.notify(r['a'],msg)
+        r, context = self.check_context(rid)
+        penalty = result.get('penalty', 0)
+        base = result.get('base_modifier', result['modifier'] - penalty)
+        modifier_text = (' + ' + str(base)) if base >= 0 else (' − ' + str(abs(base)))
+        penalty_text = (' − ' + str(abs(penalty))) if penalty < 0 else (' + ' + str(penalty)) if penalty else ''
+        source = 'Бросок за столом · записал мастер.' if result.get('source') == 'table' else 'Бросок d20 в боте.'
+        msg = (context + f"\n\nd20: {result['die']}{modifier_text}{penalty_text} = {result['total']}"
+               + f"\nСложность: {result['dc']} · " + ('Успех!' if result['success'] else 'Неудача.')
+               + (f"\nУчтён штраф после воскрешения: {penalty}." if penalty else '')
+               + '\n' + source)
+        if result.get('source') == 'table':
+            self.e.notify(self.group, msg)
+        else:
+            self.e.notify(self.group, '@ANIMATION@' + json.dumps({'file': f"d20-{result['die']:02}.gif", 'caption': msg}, ensure_ascii=False))
+        self.e.notify(r['a'], msg)
 
     def queue_card(self, target, text, markup, key):
         self.e.notify(target,'@CARD@'+json.dumps({'text':text,'markup':markup,'key':key},ensure_ascii=False))
@@ -449,16 +484,25 @@ class Bot(CharacterInterfaceMixin,FeatureInterfaceMixin,InterfaceMixin):
         elif cmd=='/inspire': self.e.inspiration(int(args[0]),int(args[1]))
         elif cmd=='/visit': self.e.visit(int(tail))
         elif cmd=='/check':
-            rid,mod,dc=map(int,args); result=self.e.check(rid,mod,dc)
+            (rid,mod,dc),label=self.check_args(tail,3)
+            result=self.e.check(rid,mod,dc)
+            self.check_name(rid,label)
             self.roll_result(rid,result)
         elif cmd=='/record':
-            rid,die,mod,dc=map(int,args); result=self.e.check(rid,mod,dc,die=die)
+            (rid,die,mod,dc),label=self.check_args(tail,4)
+            result=self.e.check(rid,mod,dc,die=die)
+            self.check_name(rid,label)
             self.roll_result(rid,result)
         elif cmd=='/askroll':
-            rid,mod,dc=map(int,args); self.e.assign_check(rid,mod,dc)
-            r=self.e.req(rid); name=self.e.player(r['a'])['name']
-            msg=f'{name}, проверка №{rid}: модификатор {mod:+}, СЛ {dc}. Нажми кнопку один раз.'
-            buttons=keyboard([[('Бросить d20',f'roll:{rid}')]])
+            (rid,mod,dc),label=self.check_args(tail,3)
+            self.e.assign_check(rid,mod,dc)
+            self.check_name(rid,label)
+            r,context=self.check_context(rid)
+            penalty=self.e.weakness(r['a'])
+            msg=(context+f'\n\nМодификатор навыка: {mod:+}'
+                 +(f'\nШтраф после воскрешения: {penalty}' if penalty else '')
+                 +f'\nСложность: {dc}\n\nГерой, указанный выше, может нажать кнопку один раз.')
+            buttons=keyboard([[('🎲 Бросить d20',f'roll:{rid}')]])
             self.send(self.group,msg,buttons,group=True)
             self.send(r['a'],msg,buttons)
         elif cmd=='/item':
