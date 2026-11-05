@@ -641,9 +641,11 @@ def main():
     except (ValueError,KeyError): raise SystemExit('Укажи ADMIN_IDS и отрицательный TAVERN_CHAT_ID в .env')
     db=os.environ.get('DB_PATH','data/tavern.sqlite3'); Path(db).parent.mkdir(parents=True,exist_ok=True)
     # Windows and Linux both prevent two pollers writing the same ledger.
-    from instance_lock import InstanceLock
-    try: lock=InstanceLock(db+'.lock')
-        except OSError as exc: raise SystemExit(f'Ошибка блокировки базы: {exc}')
+        from instance_lock import InstanceLock
+        try:
+            lock = InstanceLock(db + '.lock')
+        except OSError as exc:
+            raise SystemExit(f'Ошибка блокировки базы: {exc}')
     bot=Bot(Telegram(token),Engine(db),admins,group,int(os.environ.get('PUBLIC_TOPIC_ID','0')))
     for sig in (signal.SIGTERM,signal.SIGINT): signal.signal(sig,lambda *_:setattr(bot,'running',False))
     try:
