@@ -643,7 +643,7 @@ def main():
     # Windows and Linux both prevent two pollers writing the same ledger.
     from instance_lock import InstanceLock
     try: lock=InstanceLock(db+'.lock')
-    except OSError: raise SystemExit('Бот уже запущен с этой базой или папка недоступна.')
+        except OSError as exc: raise SystemExit(f'Ошибка блокировки базы: {exc}')
     bot=Bot(Telegram(token),Engine(db),admins,group,int(os.environ.get('PUBLIC_TOPIC_ID','0')))
     for sig in (signal.SIGTERM,signal.SIGINT): signal.signal(sig,lambda *_:setattr(bot,'running',False))
     try:
