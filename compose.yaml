@@ -1,0 +1,10 @@
+services:
+  roy:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    volumes:
+      - roy_data:/app/data
+    stop_grace_period: 50s
+volumes:
+  roy_data:

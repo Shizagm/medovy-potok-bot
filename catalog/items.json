@@ -1,0 +1,3682 @@
+{
+  "source": "https://next.dnd.su/items/",
+  "edition": "Каталог next.dnd.su / 5e24; включает совместимые материалы",
+  "retrieved": "2026-11-05",
+  "items": [
+    {
+      "id": 256,
+      "name": "Зелье лечения",
+      "rarity": "common",
+      "type": "Зелье",
+      "url": "https://next.dnd.su/items/256-potion-of-healing/"
+    },
+    {
+      "id": 15829,
+      "name": "Адамантиновый доспех",
+      "rarity": "uncommon",
+      "type": "Доспех",
+      "url": "https://next.dnd.su/items/15829-adamantine-armor/"
+    },
+    {
+      "id": 15830,
+      "name": "Адамантиновое оружие",
+      "rarity": "uncommon",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/15830-adamantine-weapon/"
+    },
+    {
+      "id": 15831,
+      "name": "Алхимический сосуд",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15831-alchemy-jug/"
+    },
+    {
+      "id": 15833,
+      "name": "Боеприпас убийства",
+      "rarity": "very_rare",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/15833-ammunition-of-slaying/"
+    },
+    {
+      "id": 15834,
+      "name": "Амулет здоровья",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15834-amulet-of-health/"
+    },
+    {
+      "id": 15835,
+      "name": "Амулет защиты от обнаружения и поиска",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15835-amulet-of-proof-against-detection-and-location/"
+    },
+    {
+      "id": 15836,
+      "name": "Амулет планов",
+      "rarity": "very_rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15836-amulet-of-the-planes/"
+    },
+    {
+      "id": 15837,
+      "name": "Живой щит",
+      "rarity": "very_rare",
+      "type": "Щит",
+      "url": "https://next.dnd.su/items/15837-animated-shield/"
+    },
+    {
+      "id": 15838,
+      "name": "Аппарат Квалиша",
+      "rarity": "legendary",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15838-apparatus-of-kwalish/"
+    },
+    {
+      "id": 15840,
+      "name": "Сверкающий доспех",
+      "rarity": "common",
+      "type": "Доспех",
+      "url": "https://next.dnd.su/items/15840-armor-of-gleaming/"
+    },
+    {
+      "id": 15841,
+      "name": "Доспех неуязвимости",
+      "rarity": "legendary",
+      "type": "Доспех",
+      "url": "https://next.dnd.su/items/15841-armor-of-invulnerability/"
+    },
+    {
+      "id": 15842,
+      "name": "Доспех сопротивления",
+      "rarity": "rare",
+      "type": "Доспех",
+      "url": "https://next.dnd.su/items/15842-armor-of-resistance/"
+    },
+    {
+      "id": 15843,
+      "name": "Доспех уязвимости",
+      "rarity": "rare",
+      "type": "Доспех",
+      "url": "https://next.dnd.su/items/15843-armor-of-vulnerability/"
+    },
+    {
+      "id": 15844,
+      "name": "Ловящий стрелы щит",
+      "rarity": "rare",
+      "type": "Щит",
+      "url": "https://next.dnd.su/items/15844-arrow-catching-shield/"
+    },
+    {
+      "id": 15845,
+      "name": "Танцующая метла Бабы Яги",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15845-baba-yagas-dancing-broom/"
+    },
+    {
+      "id": 15846,
+      "name": "Сумка с бобами",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15846-bag-of-beans/"
+    },
+    {
+      "id": 15847,
+      "name": "Сумка пожирания",
+      "rarity": "very_rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15847-bag-of-devouring/"
+    },
+    {
+      "id": 15848,
+      "name": "Сумка хранения",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15848-bag-of-holding/"
+    },
+    {
+      "id": 15849,
+      "name": "Сумка фокусов",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15849-bag-of-tricks/"
+    },
+    {
+      "id": 15850,
+      "name": "Бусина силы",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15850-bead-of-force/"
+    },
+    {
+      "id": 15851,
+      "name": "Бусина насыщения",
+      "rarity": "common",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15851-bead-of-nourishment/"
+    },
+    {
+      "id": 15852,
+      "name": "Освежающая бусина",
+      "rarity": "common",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15852-bead-of-refreshment/"
+    },
+    {
+      "id": 15853,
+      "name": "Пояс дварфов",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15853-belt-of-dwarvenkind/"
+    },
+    {
+      "id": 15855,
+      "name": "Топор берсерка",
+      "rarity": "rare",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/15855-berserker-axe/"
+    },
+    {
+      "id": 15859,
+      "name": "Эльфийские сапоги",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15859-boots-of-elvenkind/"
+    },
+    {
+      "id": 15860,
+      "name": "Сапоги ложных следов",
+      "rarity": "common",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15860-boots-of-false-tracks/"
+    },
+    {
+      "id": 15861,
+      "name": "Сапоги левитации",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15861-boots-of-levitation/"
+    },
+    {
+      "id": 15862,
+      "name": "Сапоги скорости",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15862-boots-of-speed/"
+    },
+    {
+      "id": 15863,
+      "name": "Сапоги ходьбы и прыжков",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15863-boots-of-striding-and-springing/"
+    },
+    {
+      "id": 15864,
+      "name": "Заполярные сапоги",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15864-boots-of-the-winterlands/"
+    },
+    {
+      "id": 15865,
+      "name": "Чаша командования водяными элементалями",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15865-bowl-of-commanding-water-elementals/"
+    },
+    {
+      "id": 15866,
+      "name": "Наручи стрельбы из лука",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15866-bracers-of-archery/"
+    },
+    {
+      "id": 15867,
+      "name": "Наручи защиты",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15867-bracers-of-defense/"
+    },
+    {
+      "id": 15868,
+      "name": "Жаровня командования огненными элементалями",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15868-brazier-of-commanding-fire-elementals/"
+    },
+    {
+      "id": 15869,
+      "name": "Брошь защиты",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15869-brooch-of-shielding/"
+    },
+    {
+      "id": 15870,
+      "name": "Помело полёта",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15870-broom-of-flying/"
+    },
+    {
+      "id": 15871,
+      "name": "Свеча мольбы",
+      "rarity": "very_rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15871-candle-of-invocation/"
+    },
+    {
+      "id": 15872,
+      "name": "Свеча глубин",
+      "rarity": "common",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15872-candle-of-the-deep/"
+    },
+    {
+      "id": 15873,
+      "name": "Шапка подводного дыхания",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15873-cap-of-water-breathing/"
+    },
+    {
+      "id": 15874,
+      "name": "Плащ шарлатана",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15874-cape-of-the-mountebank/"
+    },
+    {
+      "id": 15875,
+      "name": "Ковёр-самолёт",
+      "rarity": "very_rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15875-carpet-of-flying/"
+    },
+    {
+      "id": 15876,
+      "name": "Доспех сбрасывания",
+      "rarity": "common",
+      "type": "Доспех",
+      "url": "https://next.dnd.su/items/15876-cast-off-armor/"
+    },
+    {
+      "id": 15877,
+      "name": "Котёл перерождения",
+      "rarity": "very_rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15877-cauldron-of-rebirth/"
+    },
+    {
+      "id": 15878,
+      "name": "Кадило контролирования воздушных элементалей",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15878-censer-of-controlling-air-elementals/"
+    },
+    {
+      "id": 15879,
+      "name": "Кость шарлатана",
+      "rarity": "common",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15879-charlatans-die/"
+    },
+    {
+      "id": 15880,
+      "name": "Колокольчик открывания",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15880-chime-of-opening/"
+    },
+    {
+      "id": 15881,
+      "name": "Обруч сжигания",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15881-circlet-of-blasting/"
+    },
+    {
+      "id": 15882,
+      "name": "Плащ паука",
+      "rarity": "very_rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15882-cloak-of-arachnida/"
+    },
+    {
+      "id": 15883,
+      "name": "Развевающийся плащ",
+      "rarity": "common",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15883-cloak-of-billowing/"
+    },
+    {
+      "id": 15884,
+      "name": "Плащ ускользания",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15884-cloak-of-displacement/"
+    },
+    {
+      "id": 15885,
+      "name": "Эльфийский плащ",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15885-cloak-of-elvenkind/"
+    },
+    {
+      "id": 15886,
+      "name": "Плащ невидимости",
+      "rarity": "legendary",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15886-cloak-of-invisibility/"
+    },
+    {
+      "id": 15887,
+      "name": "Плащ множества стилей",
+      "rarity": "common",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15887-cloak-of-many-fashions/"
+    },
+    {
+      "id": 15888,
+      "name": "Плащ защиты",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15888-cloak-of-protection/"
+    },
+    {
+      "id": 15889,
+      "name": "Плащ летучей мыши",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15889-cloak-of-the-bat/"
+    },
+    {
+      "id": 15890,
+      "name": "Плащ ската",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15890-cloak-of-the-manta-ray/"
+    },
+    {
+      "id": 15891,
+      "name": "Механистический амулет",
+      "rarity": "common",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15891-clockwork-amulet/"
+    },
+    {
+      "id": 15892,
+      "name": "Самочинящаяся одежда",
+      "rarity": "common",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15892-clothes-of-mending/"
+    },
+    {
+      "id": 15893,
+      "name": "Хрустальный шар",
+      "rarity": "very_rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15893-crystal-ball/"
+    },
+    {
+      "id": 15894,
+      "name": "Куб силы",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15894-cube-of-force/"
+    },
+    {
+      "id": 15895,
+      "name": "Куб вызова",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15895-cube-of-summoning/"
+    },
+    {
+      "id": 15896,
+      "name": "Куб врат",
+      "rarity": "legendary",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15896-cubic-gate/"
+    },
+    {
+      "id": 15897,
+      "name": "Мгновенная крепость Даэрн",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15897-daerns-instant-fortress/"
+    },
+    {
+      "id": 15898,
+      "name": "Кинжал яда",
+      "rarity": "rare",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/15898-dagger-of-venom/"
+    },
+    {
+      "id": 15899,
+      "name": "Танцующий меч",
+      "rarity": "very_rare",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/15899-dancing-sword/"
+    },
+    {
+      "id": 15900,
+      "name": "Амулет тёмного осколка",
+      "rarity": "common",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15900-dark-shard-amulet/"
+    },
+    {
+      "id": 15901,
+      "name": "Графин бесконечной воды",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15901-decanter-of-endless-water/"
+    },
+    {
+      "id": 15902,
+      "name": "Колода иллюзий",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15902-deck-of-illusions/"
+    },
+    {
+      "id": 15903,
+      "name": "Колода многих вещей",
+      "rarity": "legendary",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15903-deck-of-many-things/"
+    },
+    {
+      "id": 15904,
+      "name": "Защитник",
+      "rarity": "legendary",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/15904-defender/"
+    },
+    {
+      "id": 15905,
+      "name": "Демонический доспех",
+      "rarity": "very_rare",
+      "type": "Доспех",
+      "url": "https://next.dnd.su/items/15905-demon-armor/"
+    },
+    {
+      "id": 15907,
+      "name": "Оковы измерений",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15907-dimensional-shackles/"
+    },
+    {
+      "id": 15908,
+      "name": "Доспех из драконьей чешуи",
+      "rarity": "very_rare",
+      "type": "Доспех",
+      "url": "https://next.dnd.su/items/15908-dragon-scale-mail/"
+    },
+    {
+      "id": 15909,
+      "name": "Убийца драконов",
+      "rarity": "rare",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/15909-dragon-slayer/"
+    },
+    {
+      "id": 15910,
+      "name": "Шлем ужаса",
+      "rarity": "common",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15910-dread-helm/"
+    },
+    {
+      "id": 15911,
+      "name": "Парящая сфера",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15911-driftglobe/"
+    },
+    {
+      "id": 15912,
+      "name": "Порошок исчезновения",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15912-dust-of-disappearance/"
+    },
+    {
+      "id": 15913,
+      "name": "Порошок сухости",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15913-dust-of-dryness/"
+    },
+    {
+      "id": 15914,
+      "name": "Порошок чихания и удушья",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15914-dust-of-sneezing-and-choking/"
+    },
+    {
+      "id": 15915,
+      "name": "Латы дварфов",
+      "rarity": "very_rare",
+      "type": "Доспех",
+      "url": "https://next.dnd.su/items/15915-dwarven-plate/"
+    },
+    {
+      "id": 15916,
+      "name": "Дварфийский метатель",
+      "rarity": "very_rare",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/15916-dwarven-thrower/"
+    },
+    {
+      "id": 15917,
+      "name": "Слуховой рог",
+      "rarity": "common",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15917-ear-horn-of-hearing/"
+    },
+    {
+      "id": 15918,
+      "name": "Бутылка с ифритом",
+      "rarity": "very_rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15918-efreeti-bottle/"
+    },
+    {
+      "id": 15919,
+      "name": "Кольчуга ифритов",
+      "rarity": "legendary",
+      "type": "Доспех",
+      "url": "https://next.dnd.su/items/15919-efreeti-chain/"
+    },
+    {
+      "id": 15920,
+      "name": "Камень элементаля",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15920-elemental-gem/"
+    },
+    {
+      "id": 15921,
+      "name": "Эликсир здоровья",
+      "rarity": "rare",
+      "type": "Зелье",
+      "url": "https://next.dnd.su/items/15921-elixir-of-health/"
+    },
+    {
+      "id": 15922,
+      "name": "Эльфийская кольчуга",
+      "rarity": "rare",
+      "type": "Доспех",
+      "url": "https://next.dnd.su/items/15922-elven-chain/"
+    },
+    {
+      "id": 15923,
+      "name": "Износостойкая книга заклинаний",
+      "rarity": "common",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15923-enduring-spellbook/"
+    },
+    {
+      "id": 15924,
+      "name": "Энергетический лук",
+      "rarity": "very_rare",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/15924-energy-bow/"
+    },
+    {
+      "id": 15928,
+      "name": "Запасной глаз",
+      "rarity": "common",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15928-ersatz-eye/"
+    },
+    {
+      "id": 15929,
+      "name": "Вечнодымящаяся бутылка",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15929-eversmoking-bottle/"
+    },
+    {
+      "id": 15930,
+      "name": "Топор палача",
+      "rarity": "very_rare",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/15930-executioners-axe/"
+    },
+    {
+      "id": 15932,
+      "name": "Очи обольщения",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15932-eyes-of-charming/"
+    },
+    {
+      "id": 15933,
+      "name": "Очки детального зрения",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15933-eyes-of-minute-seeing/"
+    },
+    {
+      "id": 15934,
+      "name": "Очки орлиного зрения",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15934-eyes-of-the-eagle/"
+    },
+    {
+      "id": 15936,
+      "name": "Язык пламени",
+      "rarity": "rare",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/15936-flame-tongue/"
+    },
+    {
+      "id": 15937,
+      "name": "Складная лодка",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15937-folding-boat/"
+    },
+    {
+      "id": 15938,
+      "name": "Морозный клинок",
+      "rarity": "very_rare",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/15938-frost-brand/"
+    },
+    {
+      "id": 15939,
+      "name": "Рукавицы силы огра",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15939-gauntlets-of-ogre-power/"
+    },
+    {
+      "id": 15940,
+      "name": "Камень сияния",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15940-gem-of-brightness/"
+    },
+    {
+      "id": 15941,
+      "name": "Камень зрения",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15941-gem-of-seeing/"
+    },
+    {
+      "id": 15942,
+      "name": "Убийца великанов",
+      "rarity": "rare",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/15942-giant-slayer/"
+    },
+    {
+      "id": 15943,
+      "name": "Очарованный проклёпанный кожаный доспех",
+      "rarity": "rare",
+      "type": "Доспех",
+      "url": "https://next.dnd.su/items/15943-glamoured-studded-leather/"
+    },
+    {
+      "id": 15944,
+      "name": "Перчатки ловли снарядов",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15944-gloves-of-missile-snaring/"
+    },
+    {
+      "id": 15945,
+      "name": "Перчатки плавания и лазания",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15945-gloves-of-swimming-and-climbing/"
+    },
+    {
+      "id": 15946,
+      "name": "Перчатки воровства",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15946-gloves-of-thievery/"
+    },
+    {
+      "id": 15947,
+      "name": "Ночные очки",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15947-goggles-of-night/"
+    },
+    {
+      "id": 15948,
+      "name": "Ведьмин глаз",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15948-hag-eye/"
+    },
+    {
+      "id": 15949,
+      "name": "Молот грома",
+      "rarity": "legendary",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/15949-hammer-of-thunderbolts/"
+    },
+    {
+      "id": 15950,
+      "name": "Шапка маскировки",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15950-hat-of-disguise/"
+    },
+    {
+      "id": 15951,
+      "name": "Шляпа множества заклинаний",
+      "rarity": "very_rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15951-hat-of-many-spells/"
+    },
+    {
+      "id": 15952,
+      "name": "Шляпа вредителей",
+      "rarity": "common",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15952-hat-of-vermin/"
+    },
+    {
+      "id": 15953,
+      "name": "Шляпа волшебства",
+      "rarity": "common",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15953-hat-of-wizardry/"
+    },
+    {
+      "id": 15954,
+      "name": "Повязка интеллекта",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15954-headband-of-intellect/"
+    },
+    {
+      "id": 15955,
+      "name": "Шлем блеска",
+      "rarity": "very_rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15955-helm-of-brilliance/"
+    },
+    {
+      "id": 15956,
+      "name": "Шлем понимания языков",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15956-helm-of-comprehending-languages/"
+    },
+    {
+      "id": 15957,
+      "name": "Шлем телепатии",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15957-helm-of-telepathy/"
+    },
+    {
+      "id": 15958,
+      "name": "Шлем телепортации",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15958-helm-of-teleportation/"
+    },
+    {
+      "id": 15959,
+      "name": "Удобный рюкзак Хеварда",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15959-hewards-handy-haversack/"
+    },
+    {
+      "id": 15960,
+      "name": "Удобный мешочек специй Хеварда",
+      "rarity": "common",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15960-hewards-handy-spice-pouch/"
+    },
+    {
+      "id": 15961,
+      "name": "Святой мститель",
+      "rarity": "legendary",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/15961-holy-avenger/"
+    },
+    {
+      "id": 15962,
+      "name": "Рог взрыва",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15962-horn-of-blasting/"
+    },
+    {
+      "id": 15963,
+      "name": "Рог беззвучного сигнала",
+      "rarity": "common",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15963-horn-of-silent-alarm/"
+    },
+    {
+      "id": 15965,
+      "name": "Подковы ветра",
+      "rarity": "very_rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15965-horseshoes-of-a-zephyr/"
+    },
+    {
+      "id": 15966,
+      "name": "Подковы скорости",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15966-horseshoes-of-speed/"
+    },
+    {
+      "id": 15967,
+      "name": "Неподвижный жезл",
+      "rarity": "uncommon",
+      "type": "Жезл",
+      "url": "https://next.dnd.su/items/15967-immovable-rod/"
+    },
+    {
+      "id": 15968,
+      "name": "Инструмент иллюзий",
+      "rarity": "common",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15968-instrument-of-illusions/"
+    },
+    {
+      "id": 15969,
+      "name": "Инструмент надписей",
+      "rarity": "common",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15969-instrument-of-scribing/"
+    },
+    {
+      "id": 15972,
+      "name": "Железные ленты Биларро",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15972-iron-bands-of-bilarro/"
+    },
+    {
+      "id": 15973,
+      "name": "Железная фляга",
+      "rarity": "legendary",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15973-iron-flask/"
+    },
+    {
+      "id": 15974,
+      "name": "Метательное копьё молнии",
+      "rarity": "uncommon",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/15974-javelin-of-lightning/"
+    },
+    {
+      "id": 15975,
+      "name": "Мазь Кеогтома",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15975-keoghtoms-ointment/"
+    },
+    {
+      "id": 15976,
+      "name": "Фонарь обнаружения",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15976-lantern-of-revealing/"
+    },
+    {
+      "id": 15977,
+      "name": "Плутовской замок",
+      "rarity": "common",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15977-lock-of-trickery/"
+    },
+    {
+      "id": 15978,
+      "name": "Клинок удачи",
+      "rarity": "legendary",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/15978-luck-blade/"
+    },
+    {
+      "id": 15979,
+      "name": "Лютня громовых ударов",
+      "rarity": "very_rare",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/15979-lute-of-thunderous-thumping/"
+    },
+    {
+      "id": 15980,
+      "name": "Булава распада",
+      "rarity": "rare",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/15980-mace-of-disruption/"
+    },
+    {
+      "id": 15981,
+      "name": "Булава кары",
+      "rarity": "rare",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/15981-mace-of-smiting/"
+    },
+    {
+      "id": 15982,
+      "name": "Булава ужаса",
+      "rarity": "rare",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/15982-mace-of-terror/"
+    },
+    {
+      "id": 15983,
+      "name": "Мантия сопротивления заклинаниям",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15983-mantle-of-spell-resistance/"
+    },
+    {
+      "id": 15984,
+      "name": "Справочник телесного здоровья",
+      "rarity": "very_rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15984-manual-of-bodily-health/"
+    },
+    {
+      "id": 15985,
+      "name": "Справочник полезных упражнений",
+      "rarity": "very_rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15985-manual-of-gainful-exercise/"
+    },
+    {
+      "id": 15986,
+      "name": "Справочник по големам",
+      "rarity": "very_rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15986-manual-of-golems/"
+    },
+    {
+      "id": 15987,
+      "name": "Справочник быстроты действий",
+      "rarity": "very_rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15987-manual-of-quickness-of-action/"
+    },
+    {
+      "id": 15988,
+      "name": "Доспех моряка",
+      "rarity": "uncommon",
+      "type": "Доспех",
+      "url": "https://next.dnd.su/items/15988-mariners-armor/"
+    },
+    {
+      "id": 15989,
+      "name": "Медальон мыслей",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15989-medallion-of-thoughts/"
+    },
+    {
+      "id": 15990,
+      "name": "Зеркало похищения жизни",
+      "rarity": "very_rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15990-mirror-of-life-trapping/"
+    },
+    {
+      "id": 15991,
+      "name": "Мифрильный доспех",
+      "rarity": "uncommon",
+      "type": "Доспех",
+      "url": "https://next.dnd.su/items/15991-mithral-armor/"
+    },
+    {
+      "id": 15992,
+      "name": "Осенённый луной меч",
+      "rarity": "common",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/15992-moon-touched-sword/"
+    },
+    {
+      "id": 15993,
+      "name": "Лунный клинок",
+      "rarity": "legendary",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/15993-moonblade/"
+    },
+    {
+      "id": 15994,
+      "name": "Таинственный ключ",
+      "rarity": "common",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15994-mystery-key/"
+    },
+    {
+      "id": 15995,
+      "name": "Одеяние природы",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15995-natures-mantle/"
+    },
+    {
+      "id": 15996,
+      "name": "Ожерелье адаптации",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15996-necklace-of-adaptation/"
+    },
+    {
+      "id": 15997,
+      "name": "Ожерелье огненных шаров",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15997-necklace-of-fireballs/"
+    },
+    {
+      "id": 15998,
+      "name": "Ожерелье молитвенных чёток",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/15998-necklace-of-prayer-beads/"
+    },
+    {
+      "id": 15999,
+      "name": "Вор девяти жизней",
+      "rarity": "very_rare",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/15999-nine-lives-stealer/"
+    },
+    {
+      "id": 16000,
+      "name": "Чудесные краски Нолзура",
+      "rarity": "very_rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16000-nolzurs-marvelous-pigments/"
+    },
+    {
+      "id": 16001,
+      "name": "Лук клятвы",
+      "rarity": "very_rare",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/16001-oathbow/"
+    },
+    {
+      "id": 16002,
+      "name": "Масло эфирности",
+      "rarity": "rare",
+      "type": "Зелье",
+      "url": "https://next.dnd.su/items/16002-oil-of-etherealness/"
+    },
+    {
+      "id": 16003,
+      "name": "Масло остроты",
+      "rarity": "very_rare",
+      "type": "Зелье",
+      "url": "https://next.dnd.su/items/16003-oil-of-sharpness/"
+    },
+    {
+      "id": 16004,
+      "name": "Масло ускользания",
+      "rarity": "uncommon",
+      "type": "Зелье",
+      "url": "https://next.dnd.su/items/16004-oil-of-slipperiness/"
+    },
+    {
+      "id": 16005,
+      "name": "Сфера направления",
+      "rarity": "common",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16005-orb-of-direction/"
+    },
+    {
+      "id": 16007,
+      "name": "Сфера времени",
+      "rarity": "common",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16007-orb-of-time/"
+    },
+    {
+      "id": 16008,
+      "name": "Жемчужина силы",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16008-pearl-of-power/"
+    },
+    {
+      "id": 16009,
+      "name": "Парфюм очарования",
+      "rarity": "common",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16009-perfume-of-bewitching/"
+    },
+    {
+      "id": 16010,
+      "name": "Медальон здоровья",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16010-periapt-of-health/"
+    },
+    {
+      "id": 16011,
+      "name": "Медальон защиты от яда",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16011-periapt-of-proof-against-poison/"
+    },
+    {
+      "id": 16012,
+      "name": "Медальон затягивающихся ран",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16012-periapt-of-wound-closure/"
+    },
+    {
+      "id": 16013,
+      "name": "Любовное зелье",
+      "rarity": "uncommon",
+      "type": "Зелье",
+      "url": "https://next.dnd.su/items/16013-philter-of-love/"
+    },
+    {
+      "id": 16014,
+      "name": "Трубка дымных чудовищ",
+      "rarity": "common",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16014-pipe-of-smoke-monsters/"
+    },
+    {
+      "id": 16015,
+      "name": "Свирель ужаса",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16015-pipes-of-haunting/"
+    },
+    {
+      "id": 16016,
+      "name": "Свирель канализации",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16016-pipes-of-the-sewers/"
+    },
+    {
+      "id": 16017,
+      "name": "Латный доспех эфирности",
+      "rarity": "legendary",
+      "type": "Доспех",
+      "url": "https://next.dnd.su/items/16017-plate-armor-of-etherealness/"
+    },
+    {
+      "id": 16018,
+      "name": "Шест рыболовства",
+      "rarity": "common",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16018-pole-of-angling/"
+    },
+    {
+      "id": 16019,
+      "name": "Складной шест",
+      "rarity": "common",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16019-pole-of-collapsing/"
+    },
+    {
+      "id": 16020,
+      "name": "Переносная дыра",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16020-portable-hole/"
+    },
+    {
+      "id": 16021,
+      "name": "Горшок пробуждения",
+      "rarity": "common",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16021-pot-of-awakening/"
+    },
+    {
+      "id": 16022,
+      "name": "Зелье дружбы с животными",
+      "rarity": "uncommon",
+      "type": "Зелье",
+      "url": "https://next.dnd.su/items/16022-potion-of-animal-friendship/"
+    },
+    {
+      "id": 16023,
+      "name": "Зелье ясновидения",
+      "rarity": "rare",
+      "type": "Зелье",
+      "url": "https://next.dnd.su/items/16023-potion-of-clairvoyance/"
+    },
+    {
+      "id": 16024,
+      "name": "Зелье лазания",
+      "rarity": "common",
+      "type": "Зелье",
+      "url": "https://next.dnd.su/items/16024-potion-of-climbing/"
+    },
+    {
+      "id": 16025,
+      "name": "Зелье понимания",
+      "rarity": "common",
+      "type": "Зелье",
+      "url": "https://next.dnd.su/items/16025-potion-of-comprehension/"
+    },
+    {
+      "id": 16026,
+      "name": "Зелье уменьшения",
+      "rarity": "rare",
+      "type": "Зелье",
+      "url": "https://next.dnd.su/items/16026-potion-of-diminution/"
+    },
+    {
+      "id": 16027,
+      "name": "Зелье огненного дыхания",
+      "rarity": "uncommon",
+      "type": "Зелье",
+      "url": "https://next.dnd.su/items/16027-potion-of-fire-breath/"
+    },
+    {
+      "id": 16028,
+      "name": "Зелье полёта",
+      "rarity": "very_rare",
+      "type": "Зелье",
+      "url": "https://next.dnd.su/items/16028-potion-of-flying/"
+    },
+    {
+      "id": 16029,
+      "name": "Зелье газообразной формы",
+      "rarity": "rare",
+      "type": "Зелье",
+      "url": "https://next.dnd.su/items/16029-potion-of-gaseous-form/"
+    },
+    {
+      "id": 16031,
+      "name": "Зелье высшей невидимости",
+      "rarity": "very_rare",
+      "type": "Зелье",
+      "url": "https://next.dnd.su/items/16031-potion-of-greater-invisibility/"
+    },
+    {
+      "id": 16032,
+      "name": "Зелье увеличения",
+      "rarity": "uncommon",
+      "type": "Зелье",
+      "url": "https://next.dnd.su/items/16032-potion-of-growth/"
+    },
+    {
+      "id": 16033,
+      "name": "Зелье героизма",
+      "rarity": "rare",
+      "type": "Зелье",
+      "url": "https://next.dnd.su/items/16033-potion-of-heroism/"
+    },
+    {
+      "id": 16034,
+      "name": "Зелье невидимости",
+      "rarity": "rare",
+      "type": "Зелье",
+      "url": "https://next.dnd.su/items/16034-potion-of-invisibility/"
+    },
+    {
+      "id": 16035,
+      "name": "Зелье неуязвимости",
+      "rarity": "rare",
+      "type": "Зелье",
+      "url": "https://next.dnd.su/items/16035-potion-of-invulnerability/"
+    },
+    {
+      "id": 16036,
+      "name": "Зелье долголетия",
+      "rarity": "very_rare",
+      "type": "Зелье",
+      "url": "https://next.dnd.su/items/16036-potion-of-longevity/"
+    },
+    {
+      "id": 16037,
+      "name": "Зелье чтения мыслей",
+      "rarity": "rare",
+      "type": "Зелье",
+      "url": "https://next.dnd.su/items/16037-potion-of-mind-reading/"
+    },
+    {
+      "id": 16038,
+      "name": "Зелье яда",
+      "rarity": "uncommon",
+      "type": "Зелье",
+      "url": "https://next.dnd.su/items/16038-potion-of-poison/"
+    },
+    {
+      "id": 16039,
+      "name": "Зелье кулачного боя",
+      "rarity": "uncommon",
+      "type": "Зелье",
+      "url": "https://next.dnd.su/items/16039-potion-of-pugilism/"
+    },
+    {
+      "id": 16040,
+      "name": "Зелье сопротивления",
+      "rarity": "uncommon",
+      "type": "Зелье",
+      "url": "https://next.dnd.su/items/16040-potion-of-resistance/"
+    },
+    {
+      "id": 16041,
+      "name": "Зелье скорости",
+      "rarity": "very_rare",
+      "type": "Зелье",
+      "url": "https://next.dnd.su/items/16041-potion-of-speed/"
+    },
+    {
+      "id": 16042,
+      "name": "Зелье живучести",
+      "rarity": "very_rare",
+      "type": "Зелье",
+      "url": "https://next.dnd.su/items/16042-potion-of-vitality/"
+    },
+    {
+      "id": 16043,
+      "name": "Зелье подводного дыхания",
+      "rarity": "uncommon",
+      "type": "Зелье",
+      "url": "https://next.dnd.su/items/16043-potion-of-water-breathing/"
+    },
+    {
+      "id": 16045,
+      "name": "Протез конечности",
+      "rarity": "common",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16045-prosthetic-limb/"
+    },
+    {
+      "id": 16047,
+      "name": "Посох акробата",
+      "rarity": "very_rare",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/16047-quarterstaff-of-the-acrobat/"
+    },
+    {
+      "id": 16048,
+      "name": "Колчан Элонны",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16048-quiver-of-ehlonna/"
+    },
+    {
+      "id": 16049,
+      "name": "Кольцо влияния на животных",
+      "rarity": "rare",
+      "type": "Кольцо",
+      "url": "https://next.dnd.su/items/16049-ring-of-animal-influence/"
+    },
+    {
+      "id": 16050,
+      "name": "Кольцо призыва джинна",
+      "rarity": "legendary",
+      "type": "Кольцо",
+      "url": "https://next.dnd.su/items/16050-ring-of-djinni-summoning/"
+    },
+    {
+      "id": 16051,
+      "name": "Кольцо командования элементалями",
+      "rarity": "legendary",
+      "type": "Кольцо",
+      "url": "https://next.dnd.su/items/16051-ring-of-elemental-command/"
+    },
+    {
+      "id": 16052,
+      "name": "Кольцо уклонения",
+      "rarity": "rare",
+      "type": "Кольцо",
+      "url": "https://next.dnd.su/items/16052-ring-of-evasion/"
+    },
+    {
+      "id": 16053,
+      "name": "Кольцо падения пёрышком",
+      "rarity": "rare",
+      "type": "Кольцо",
+      "url": "https://next.dnd.su/items/16053-ring-of-feather-falling/"
+    },
+    {
+      "id": 16054,
+      "name": "Кольцо свободных действий",
+      "rarity": "rare",
+      "type": "Кольцо",
+      "url": "https://next.dnd.su/items/16054-ring-of-free-action/"
+    },
+    {
+      "id": 16055,
+      "name": "Кольцо невидимости",
+      "rarity": "legendary",
+      "type": "Кольцо",
+      "url": "https://next.dnd.su/items/16055-ring-of-invisibility/"
+    },
+    {
+      "id": 16056,
+      "name": "Кольцо прыжков",
+      "rarity": "uncommon",
+      "type": "Кольцо",
+      "url": "https://next.dnd.su/items/16056-ring-of-jumping/"
+    },
+    {
+      "id": 16057,
+      "name": "Кольцо защиты разума",
+      "rarity": "uncommon",
+      "type": "Кольцо",
+      "url": "https://next.dnd.su/items/16057-ring-of-mind-shielding/"
+    },
+    {
+      "id": 16058,
+      "name": "Кольцо защиты",
+      "rarity": "rare",
+      "type": "Кольцо",
+      "url": "https://next.dnd.su/items/16058-ring-of-protection/"
+    },
+    {
+      "id": 16059,
+      "name": "Кольцо регенерации",
+      "rarity": "very_rare",
+      "type": "Кольцо",
+      "url": "https://next.dnd.su/items/16059-ring-of-regeneration/"
+    },
+    {
+      "id": 16060,
+      "name": "Кольцо сопротивления",
+      "rarity": "rare",
+      "type": "Кольцо",
+      "url": "https://next.dnd.su/items/16060-ring-of-resistance/"
+    },
+    {
+      "id": 16061,
+      "name": "Кольцо падающих звёзд",
+      "rarity": "very_rare",
+      "type": "Кольцо",
+      "url": "https://next.dnd.su/items/16061-ring-of-shooting-stars/"
+    },
+    {
+      "id": 16062,
+      "name": "Кольцо хранения заклинаний",
+      "rarity": "rare",
+      "type": "Кольцо",
+      "url": "https://next.dnd.su/items/16062-ring-of-spell-storing/"
+    },
+    {
+      "id": 16063,
+      "name": "Кольцо отражения заклинаний",
+      "rarity": "legendary",
+      "type": "Кольцо",
+      "url": "https://next.dnd.su/items/16063-ring-of-spell-turning/"
+    },
+    {
+      "id": 16064,
+      "name": "Кольцо плавания",
+      "rarity": "uncommon",
+      "type": "Кольцо",
+      "url": "https://next.dnd.su/items/16064-ring-of-swimming/"
+    },
+    {
+      "id": 16065,
+      "name": "Кольцо телекинеза",
+      "rarity": "very_rare",
+      "type": "Кольцо",
+      "url": "https://next.dnd.su/items/16065-ring-of-telekinesis/"
+    },
+    {
+      "id": 16066,
+      "name": "Кольцо барана",
+      "rarity": "rare",
+      "type": "Кольцо",
+      "url": "https://next.dnd.su/items/16066-ring-of-the-ram/"
+    },
+    {
+      "id": 16067,
+      "name": "Кольцо трёх желаний",
+      "rarity": "legendary",
+      "type": "Кольцо",
+      "url": "https://next.dnd.su/items/16067-ring-of-three-wishes/"
+    },
+    {
+      "id": 16068,
+      "name": "Кольцо тепла",
+      "rarity": "uncommon",
+      "type": "Кольцо",
+      "url": "https://next.dnd.su/items/16068-ring-of-warmth/"
+    },
+    {
+      "id": 16069,
+      "name": "Кольцо хождения по воде",
+      "rarity": "uncommon",
+      "type": "Кольцо",
+      "url": "https://next.dnd.su/items/16069-ring-of-water-walking/"
+    },
+    {
+      "id": 16070,
+      "name": "Кольцо проникающего зрения",
+      "rarity": "rare",
+      "type": "Кольцо",
+      "url": "https://next.dnd.su/items/16070-ring-of-x-ray-vision/"
+    },
+    {
+      "id": 16071,
+      "name": "Монета вражды",
+      "rarity": "common",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16071-rival-coin/"
+    },
+    {
+      "id": 16072,
+      "name": "Мантия глаз",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16072-robe-of-eyes/"
+    },
+    {
+      "id": 16073,
+      "name": "Мантия сияющих цветов",
+      "rarity": "very_rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16073-robe-of-scintillating-colors/"
+    },
+    {
+      "id": 16074,
+      "name": "Мантия звёзд",
+      "rarity": "very_rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16074-robe-of-stars/"
+    },
+    {
+      "id": 16075,
+      "name": "Мантия архимага",
+      "rarity": "legendary",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16075-robe-of-the-archmagi/"
+    },
+    {
+      "id": 16076,
+      "name": "Мантия полезных предметов",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16076-robe-of-useful-items/"
+    },
+    {
+      "id": 16077,
+      "name": "Жезл поглощения",
+      "rarity": "very_rare",
+      "type": "Жезл",
+      "url": "https://next.dnd.su/items/16077-rod-of-absorption/"
+    },
+    {
+      "id": 16078,
+      "name": "Жезл бдительности",
+      "rarity": "very_rare",
+      "type": "Жезл",
+      "url": "https://next.dnd.su/items/16078-rod-of-alertness/"
+    },
+    {
+      "id": 16079,
+      "name": "Жезл величественной мощи",
+      "rarity": "legendary",
+      "type": "Жезл",
+      "url": "https://next.dnd.su/items/16079-rod-of-lordly-might/"
+    },
+    {
+      "id": 16080,
+      "name": "Жезл воскрешения",
+      "rarity": "legendary",
+      "type": "Жезл",
+      "url": "https://next.dnd.su/items/16080-rod-of-resurrection/"
+    },
+    {
+      "id": 16081,
+      "name": "Жезл правления",
+      "rarity": "rare",
+      "type": "Жезл",
+      "url": "https://next.dnd.su/items/16081-rod-of-rulership/"
+    },
+    {
+      "id": 16082,
+      "name": "Жезл безопасности",
+      "rarity": "very_rare",
+      "type": "Жезл",
+      "url": "https://next.dnd.su/items/16082-rod-of-security/"
+    },
+    {
+      "id": 16084,
+      "name": "Верёвка лазания",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16084-rope-of-climbing/"
+    },
+    {
+      "id": 16085,
+      "name": "Верёвка опутывания",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16085-rope-of-entanglement/"
+    },
+    {
+      "id": 16086,
+      "name": "Срастающаяся верёвка",
+      "rarity": "common",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16086-rope-of-mending/"
+    },
+    {
+      "id": 16087,
+      "name": "Рубин боевого мага",
+      "rarity": "common",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16087-ruby-of-the-war-mage/"
+    },
+    {
+      "id": 16088,
+      "name": "Седло кавалериста",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16088-saddle-of-the-cavalier/"
+    },
+    {
+      "id": 16089,
+      "name": "Скарабей защиты",
+      "rarity": "legendary",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16089-scarab-of-protection/"
+    },
+    {
+      "id": 16090,
+      "name": "Скимитар скорости",
+      "rarity": "very_rare",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/16090-scimitar-of-speed/"
+    },
+    {
+      "id": 16091,
+      "name": "Свиток защиты",
+      "rarity": "rare",
+      "type": "Свиток",
+      "url": "https://next.dnd.su/items/16091-scroll-of-protection/"
+    },
+    {
+      "id": 16092,
+      "name": "Свиток призыва титанов",
+      "rarity": "legendary",
+      "type": "Свиток",
+      "url": "https://next.dnd.su/items/16092-scroll-of-titan-summoning/"
+    },
+    {
+      "id": 16093,
+      "name": "Камни послания",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16093-sending-stones/"
+    },
+    {
+      "id": 16094,
+      "name": "Щит часового",
+      "rarity": "uncommon",
+      "type": "Щит",
+      "url": "https://next.dnd.su/items/16094-sentinel-shield/"
+    },
+    {
+      "id": 16096,
+      "name": "Щит экспрессии",
+      "rarity": "common",
+      "type": "Щит",
+      "url": "https://next.dnd.su/items/16096-shield-of-expression/"
+    },
+    {
+      "id": 16097,
+      "name": "Щит притягивания снарядов",
+      "rarity": "rare",
+      "type": "Щит",
+      "url": "https://next.dnd.su/items/16097-shield-of-missile-attraction/"
+    },
+    {
+      "id": 16098,
+      "name": "Щит рыцаря",
+      "rarity": "very_rare",
+      "type": "Щит",
+      "url": "https://next.dnd.su/items/16098-shield-of-the-cavalier/"
+    },
+    {
+      "id": 16099,
+      "name": "Посеребрённое оружие",
+      "rarity": "common",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/16099-silvered-weapon/"
+    },
+    {
+      "id": 16100,
+      "name": "Туфли паука",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16100-slippers-of-spider-climbing/"
+    },
+    {
+      "id": 16101,
+      "name": "Дымящий доспех",
+      "rarity": "common",
+      "type": "Доспех",
+      "url": "https://next.dnd.su/items/16101-smoldering-armor/"
+    },
+    {
+      "id": 16102,
+      "name": "Превосходный клей",
+      "rarity": "legendary",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16102-sovereign-glue/"
+    },
+    {
+      "id": 16104,
+      "name": "Щит ограждения от заклятий",
+      "rarity": "very_rare",
+      "type": "Щит",
+      "url": "https://next.dnd.su/items/16104-spellguard-shield/"
+    },
+    {
+      "id": 16105,
+      "name": "Сфера аннигиляции",
+      "rarity": "legendary",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16105-sphere-of-annihilation/"
+    },
+    {
+      "id": 16106,
+      "name": "Доска спиритизма",
+      "rarity": "very_rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16106-spirit-board/"
+    },
+    {
+      "id": 16107,
+      "name": "Посох украшения",
+      "rarity": "common",
+      "type": "Посох",
+      "url": "https://next.dnd.su/items/16107-staff-of-adornment/"
+    },
+    {
+      "id": 16108,
+      "name": "Посох птичьего щебета",
+      "rarity": "common",
+      "type": "Посох",
+      "url": "https://next.dnd.su/items/16108-staff-of-birdcalls/"
+    },
+    {
+      "id": 16109,
+      "name": "Посох очарования",
+      "rarity": "rare",
+      "type": "Посох",
+      "url": "https://next.dnd.su/items/16109-staff-of-charming/"
+    },
+    {
+      "id": 16110,
+      "name": "Посох огня",
+      "rarity": "very_rare",
+      "type": "Посох",
+      "url": "https://next.dnd.su/items/16110-staff-of-fire/"
+    },
+    {
+      "id": 16111,
+      "name": "Посох цветов",
+      "rarity": "common",
+      "type": "Посох",
+      "url": "https://next.dnd.su/items/16111-staff-of-flowers/"
+    },
+    {
+      "id": 16112,
+      "name": "Посох мороза",
+      "rarity": "very_rare",
+      "type": "Посох",
+      "url": "https://next.dnd.su/items/16112-staff-of-frost/"
+    },
+    {
+      "id": 16113,
+      "name": "Посох лечения",
+      "rarity": "rare",
+      "type": "Посох",
+      "url": "https://next.dnd.su/items/16113-staff-of-healing/"
+    },
+    {
+      "id": 16114,
+      "name": "Посох силы",
+      "rarity": "very_rare",
+      "type": "Посох",
+      "url": "https://next.dnd.su/items/16114-staff-of-power/"
+    },
+    {
+      "id": 16115,
+      "name": "Посох ударов",
+      "rarity": "very_rare",
+      "type": "Посох",
+      "url": "https://next.dnd.su/items/16115-staff-of-striking/"
+    },
+    {
+      "id": 16116,
+      "name": "Посох роя насекомых",
+      "rarity": "rare",
+      "type": "Посох",
+      "url": "https://next.dnd.su/items/16116-staff-of-swarming-insects/"
+    },
+    {
+      "id": 16117,
+      "name": "Посох гадюки",
+      "rarity": "uncommon",
+      "type": "Посох",
+      "url": "https://next.dnd.su/items/16117-staff-of-the-adder/"
+    },
+    {
+      "id": 16118,
+      "name": "Посох магов",
+      "rarity": "legendary",
+      "type": "Посох",
+      "url": "https://next.dnd.su/items/16118-staff-of-the-magi/"
+    },
+    {
+      "id": 16119,
+      "name": "Посох питона",
+      "rarity": "uncommon",
+      "type": "Посох",
+      "url": "https://next.dnd.su/items/16119-staff-of-the-python/"
+    },
+    {
+      "id": 16120,
+      "name": "Посох леса",
+      "rarity": "rare",
+      "type": "Посох",
+      "url": "https://next.dnd.su/items/16120-staff-of-the-woodlands/"
+    },
+    {
+      "id": 16121,
+      "name": "Посох грома и молнии",
+      "rarity": "very_rare",
+      "type": "Посох",
+      "url": "https://next.dnd.su/items/16121-staff-of-thunder-and-lightning/"
+    },
+    {
+      "id": 16122,
+      "name": "Посох иссушения",
+      "rarity": "rare",
+      "type": "Посох",
+      "url": "https://next.dnd.su/items/16122-staff-of-withering/"
+    },
+    {
+      "id": 16123,
+      "name": "Камень контролирования земляных элементалей",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16123-stone-of-controlling-earth-elementals/"
+    },
+    {
+      "id": 16124,
+      "name": "Камень удачи",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16124-stone-of-good-luck-luckstone/"
+    },
+    {
+      "id": 16125,
+      "name": "Солнечный клинок",
+      "rarity": "rare",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/16125-sun-blade/"
+    },
+    {
+      "id": 16126,
+      "name": "Меч ответа",
+      "rarity": "legendary",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/16126-sword-of-answering/"
+    },
+    {
+      "id": 16128,
+      "name": "Меч кражи жизни",
+      "rarity": "rare",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/16128-sword-of-life-stealing/"
+    },
+    {
+      "id": 16129,
+      "name": "Меч остроты",
+      "rarity": "very_rare",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/16129-sword-of-sharpness/"
+    },
+    {
+      "id": 16130,
+      "name": "Меч мести",
+      "rarity": "uncommon",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/16130-sword-of-vengeance/"
+    },
+    {
+      "id": 16131,
+      "name": "Меч ранения",
+      "rarity": "rare",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/16131-sword-of-wounding/"
+    },
+    {
+      "id": 16132,
+      "name": "Коготь сильван",
+      "rarity": "common",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/16132-sylvan-talon/"
+    },
+    {
+      "id": 16133,
+      "name": "Талисман чистого добра",
+      "rarity": "legendary",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16133-talisman-of-pure-good/"
+    },
+    {
+      "id": 16134,
+      "name": "Талисман сферы",
+      "rarity": "legendary",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16134-talisman-of-the-sphere/"
+    },
+    {
+      "id": 16135,
+      "name": "Талисман абсолютного зла",
+      "rarity": "legendary",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16135-talisman-of-ultimate-evil/"
+    },
+    {
+      "id": 16136,
+      "name": "Говорящая кукла",
+      "rarity": "common",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16136-talking-doll/"
+    },
+    {
+      "id": 16137,
+      "name": "Кружка трезвости",
+      "rarity": "common",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16137-tankard-of-sobriety/"
+    },
+    {
+      "id": 16138,
+      "name": "Жезл щупалец",
+      "rarity": "rare",
+      "type": "Жезл",
+      "url": "https://next.dnd.su/items/16138-tentacle-rod/"
+    },
+    {
+      "id": 16139,
+      "name": "Громыхающая палица",
+      "rarity": "very_rare",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/16139-thunderous-greatclub/"
+    },
+    {
+      "id": 16140,
+      "name": "Фолиант чистых мыслей",
+      "rarity": "very_rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16140-tome-of-clear-thought/"
+    },
+    {
+      "id": 16141,
+      "name": "Фолиант лидерства и влияния",
+      "rarity": "very_rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16141-tome-of-leadership-and-influence/"
+    },
+    {
+      "id": 16142,
+      "name": "Гримуар молчаливого языка",
+      "rarity": "legendary",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16142-tome-of-the-stilled-tongue/"
+    },
+    {
+      "id": 16143,
+      "name": "Фолиант понимания",
+      "rarity": "very_rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16143-tome-of-understanding/"
+    },
+    {
+      "id": 16144,
+      "name": "Трезубец командования рыбами",
+      "rarity": "uncommon",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/16144-trident-of-fish-command/"
+    },
+    {
+      "id": 16145,
+      "name": "Универсальный растворитель",
+      "rarity": "legendary",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16145-universal-solvent/"
+    },
+    {
+      "id": 16146,
+      "name": "Трость ветерана",
+      "rarity": "common",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16146-veterans-cane/"
+    },
+    {
+      "id": 16147,
+      "name": "Жестокое оружие",
+      "rarity": "rare",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/16147-vicious-weapon/"
+    },
+    {
+      "id": 16148,
+      "name": "Вострый меч",
+      "rarity": "legendary",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/16148-vorpal-sword/"
+    },
+    {
+      "id": 16149,
+      "name": "Опрокидывающий боеприпас",
+      "rarity": "common",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/16149-walloping-ammunition/"
+    },
+    {
+      "id": 16150,
+      "name": "Волшебная палочка сковывания",
+      "rarity": "rare",
+      "type": "Волшебная палочка",
+      "url": "https://next.dnd.su/items/16150-wand-of-binding/"
+    },
+    {
+      "id": 16151,
+      "name": "Дирижёрская палочка",
+      "rarity": "common",
+      "type": "Волшебная палочка",
+      "url": "https://next.dnd.su/items/16151-wand-of-conducting/"
+    },
+    {
+      "id": 16152,
+      "name": "Волшебная палочка обнаружения врагов",
+      "rarity": "rare",
+      "type": "Волшебная палочка",
+      "url": "https://next.dnd.su/items/16152-wand-of-enemy-detection/"
+    },
+    {
+      "id": 16153,
+      "name": "Волшебная палочка страха",
+      "rarity": "rare",
+      "type": "Волшебная палочка",
+      "url": "https://next.dnd.su/items/16153-wand-of-fear/"
+    },
+    {
+      "id": 16154,
+      "name": "Волшебная палочка огненных шаров",
+      "rarity": "rare",
+      "type": "Волшебная палочка",
+      "url": "https://next.dnd.su/items/16154-wand-of-fireballs/"
+    },
+    {
+      "id": 16155,
+      "name": "Волшебная палочка молний",
+      "rarity": "rare",
+      "type": "Волшебная палочка",
+      "url": "https://next.dnd.su/items/16155-wand-of-lightning-bolts/"
+    },
+    {
+      "id": 16156,
+      "name": "Волшебная палочка обнаружения магии",
+      "rarity": "uncommon",
+      "type": "Волшебная палочка",
+      "url": "https://next.dnd.su/items/16156-wand-of-magic-detection/"
+    },
+    {
+      "id": 16157,
+      "name": "Волшебная палочка стрел",
+      "rarity": "uncommon",
+      "type": "Волшебная палочка",
+      "url": "https://next.dnd.su/items/16157-wand-of-magic-missiles/"
+    },
+    {
+      "id": 16159,
+      "name": "Волшебная палочка паралича",
+      "rarity": "rare",
+      "type": "Волшебная палочка",
+      "url": "https://next.dnd.su/items/16159-wand-of-paralysis/"
+    },
+    {
+      "id": 16160,
+      "name": "Волшебная палочка превращения",
+      "rarity": "very_rare",
+      "type": "Волшебная палочка",
+      "url": "https://next.dnd.su/items/16160-wand-of-polymorph/"
+    },
+    {
+      "id": 16161,
+      "name": "Палочка пиротехники",
+      "rarity": "common",
+      "type": "Волшебная палочка",
+      "url": "https://next.dnd.su/items/16161-wand-of-pyrotechnics/"
+    },
+    {
+      "id": 16162,
+      "name": "Волшебная палочка секретов",
+      "rarity": "uncommon",
+      "type": "Волшебная палочка",
+      "url": "https://next.dnd.su/items/16162-wand-of-secrets/"
+    },
+    {
+      "id": 16164,
+      "name": "Волшебная палочка паутины",
+      "rarity": "uncommon",
+      "type": "Волшебная палочка",
+      "url": "https://next.dnd.su/items/16164-wand-of-web/"
+    },
+    {
+      "id": 16165,
+      "name": "Волшебная палочка чудес",
+      "rarity": "rare",
+      "type": "Волшебная палочка",
+      "url": "https://next.dnd.su/items/16165-wand-of-wonder/"
+    },
+    {
+      "id": 16168,
+      "name": "Оружие предупреждения",
+      "rarity": "uncommon",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/16168-weapon-of-warning/"
+    },
+    {
+      "id": 16169,
+      "name": "Колодец многих миров",
+      "rarity": "legendary",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16169-well-of-many-worlds/"
+    },
+    {
+      "id": 16171,
+      "name": "Веер ветра",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16171-wind-fan/"
+    },
+    {
+      "id": 16172,
+      "name": "Крылатые сапоги",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16172-winged-boots/"
+    },
+    {
+      "id": 16173,
+      "name": "Крылья полёта",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16173-wings-of-flying/"
+    },
+    {
+      "id": 16523,
+      "name": "Зелье большого лечения",
+      "rarity": "uncommon",
+      "type": "Зелье",
+      "url": "https://next.dnd.su/items/16523-potion-of-greater-healing/"
+    },
+    {
+      "id": 16524,
+      "name": "Зелье отличного лечения",
+      "rarity": "rare",
+      "type": "Зелье",
+      "url": "https://next.dnd.su/items/16524-potion-of-superior-healing/"
+    },
+    {
+      "id": 16525,
+      "name": "Зелье превосходного лечения",
+      "rarity": "very_rare",
+      "type": "Зелье",
+      "url": "https://next.dnd.su/items/16525-potion-of-supreme-healing/"
+    },
+    {
+      "id": 16817,
+      "name": "Оружие +1",
+      "rarity": "uncommon",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/16817-weapon-1/"
+    },
+    {
+      "id": 16818,
+      "name": "Оружие +2",
+      "rarity": "rare",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/16818-weapon-2/"
+    },
+    {
+      "id": 16819,
+      "name": "Оружие +3",
+      "rarity": "very_rare",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/16819-weapon-3/"
+    },
+    {
+      "id": 16821,
+      "name": "Боеприпас +1",
+      "rarity": "uncommon",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/16821-ammunition-1/"
+    },
+    {
+      "id": 16822,
+      "name": "Боеприпас +2",
+      "rarity": "rare",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/16822-ammunition-2/"
+    },
+    {
+      "id": 16823,
+      "name": "Боеприпас +3",
+      "rarity": "very_rare",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/16823-ammunition-3/"
+    },
+    {
+      "id": 16829,
+      "name": "Зелье силы холмового великана",
+      "rarity": "uncommon",
+      "type": "Зелье",
+      "url": "https://next.dnd.su/items/16829-potion-of-giant-strength-hill/"
+    },
+    {
+      "id": 16830,
+      "name": "Зелье силы ледяного великана",
+      "rarity": "rare",
+      "type": "Зелье",
+      "url": "https://next.dnd.su/items/16830-potion-of-giant-strength-frost/"
+    },
+    {
+      "id": 16831,
+      "name": "Зелье силы каменного великана",
+      "rarity": "rare",
+      "type": "Зелье",
+      "url": "https://next.dnd.su/items/16831-potion-of-giant-strength-stone/"
+    },
+    {
+      "id": 16832,
+      "name": "Зелье силы огненного великана",
+      "rarity": "rare",
+      "type": "Зелье",
+      "url": "https://next.dnd.su/items/16832-potion-of-giant-strength-fire/"
+    },
+    {
+      "id": 16833,
+      "name": "Зелье силы облачного великана",
+      "rarity": "very_rare",
+      "type": "Зелье",
+      "url": "https://next.dnd.su/items/16833-potion-of-giant-strength-cloud/"
+    },
+    {
+      "id": 16834,
+      "name": "Зелье силы штормового великана",
+      "rarity": "legendary",
+      "type": "Зелье",
+      "url": "https://next.dnd.su/items/16834-potion-of-giant-strength-storm/"
+    },
+    {
+      "id": 16836,
+      "name": "Арфа Анструт",
+      "rarity": "very_rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16836-anstruth-harp/"
+    },
+    {
+      "id": 16837,
+      "name": "Мандолина Канаит",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16837-canaith-mandolin/"
+    },
+    {
+      "id": 16838,
+      "name": "Лира Кли",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16838-cli-lyre/"
+    },
+    {
+      "id": 16839,
+      "name": "Лютня Досс",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16839-doss-lute/"
+    },
+    {
+      "id": 16840,
+      "name": "Бандура Фоклучан",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16840-fochlucan-bandore/"
+    },
+    {
+      "id": 16841,
+      "name": "Цистра Мак-Фурми",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16841-mac-fuirmidh-cittern/"
+    },
+    {
+      "id": 16842,
+      "name": "Арфа Оллав",
+      "rarity": "legendary",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16842-ollamh-harp/"
+    },
+    {
+      "id": 16847,
+      "name": "Хрустальный шар чтения мыслей",
+      "rarity": "legendary",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16847-crystal-ball-of-mind-reading/"
+    },
+    {
+      "id": 16848,
+      "name": "Хрустальный шар телепатии",
+      "rarity": "legendary",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16848-crystal-ball-of-telepathy/"
+    },
+    {
+      "id": 16849,
+      "name": "Хрустальный шар истинного зрения",
+      "rarity": "legendary",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/16849-crystal-ball-of-true-seeing/"
+    },
+    {
+      "id": 16887,
+      "name": "Заговорённый доспех (заговор)",
+      "rarity": "uncommon",
+      "type": "Доспех",
+      "url": "https://next.dnd.su/items/16887-enspelled-armor-cantrip/"
+    },
+    {
+      "id": 16888,
+      "name": "Заговорённый доспех (1-й уровень)",
+      "rarity": "uncommon",
+      "type": "Доспех",
+      "url": "https://next.dnd.su/items/16888-enspelled-armor-level-1/"
+    },
+    {
+      "id": 16889,
+      "name": "Заговорённый доспех (2-й уровень)",
+      "rarity": "rare",
+      "type": "Доспех",
+      "url": "https://next.dnd.su/items/16889-enspelled-armor-level-2/"
+    },
+    {
+      "id": 16890,
+      "name": "Заговорённый доспех (3-й уровень)",
+      "rarity": "rare",
+      "type": "Доспех",
+      "url": "https://next.dnd.su/items/16890-enspelled-armor-level-3/"
+    },
+    {
+      "id": 16891,
+      "name": "Заговорённый доспех (4-й уровень)",
+      "rarity": "very_rare",
+      "type": "Доспех",
+      "url": "https://next.dnd.su/items/16891-enspelled-armor-level-4/"
+    },
+    {
+      "id": 16892,
+      "name": "Заговорённый доспех (5-й уровень)",
+      "rarity": "very_rare",
+      "type": "Доспех",
+      "url": "https://next.dnd.su/items/16892-enspelled-armor-level-5/"
+    },
+    {
+      "id": 16893,
+      "name": "Заговорённый доспех (6-й уровень)",
+      "rarity": "legendary",
+      "type": "Доспех",
+      "url": "https://next.dnd.su/items/16893-enspelled-armor-level-6/"
+    },
+    {
+      "id": 16894,
+      "name": "Заговорённый доспех (7-й уровень)",
+      "rarity": "legendary",
+      "type": "Доспех",
+      "url": "https://next.dnd.su/items/16894-enspelled-armor-level-7/"
+    },
+    {
+      "id": 16895,
+      "name": "Заговорённый доспех (8-й уровень)",
+      "rarity": "legendary",
+      "type": "Доспех",
+      "url": "https://next.dnd.su/items/16895-enspelled-armor-level-8/"
+    },
+    {
+      "id": 16898,
+      "name": "Заговорённый посох (заговор)",
+      "rarity": "uncommon",
+      "type": "Посох",
+      "url": "https://next.dnd.su/items/16898-enspelled-staff-cantrip/"
+    },
+    {
+      "id": 16899,
+      "name": "Заговорённый посох (1-й уровень)",
+      "rarity": "uncommon",
+      "type": "Посох",
+      "url": "https://next.dnd.su/items/16899-enspelled-staff-level-1/"
+    },
+    {
+      "id": 16900,
+      "name": "Заговорённый посох (2-й уровень)",
+      "rarity": "rare",
+      "type": "Посох",
+      "url": "https://next.dnd.su/items/16900-enspelled-staff-level-2/"
+    },
+    {
+      "id": 16901,
+      "name": "Заговорённый посох (3-й уровень)",
+      "rarity": "rare",
+      "type": "Посох",
+      "url": "https://next.dnd.su/items/16901-enspelled-staff-level-3/"
+    },
+    {
+      "id": 16902,
+      "name": "Заговорённый посох (4-й уровень)",
+      "rarity": "very_rare",
+      "type": "Посох",
+      "url": "https://next.dnd.su/items/16902-enspelled-staff-level-4/"
+    },
+    {
+      "id": 16903,
+      "name": "Заговорённый посох (5-й уровень)",
+      "rarity": "very_rare",
+      "type": "Посох",
+      "url": "https://next.dnd.su/items/16903-enspelled-staff-level-5/"
+    },
+    {
+      "id": 16904,
+      "name": "Заговорённый посох (6-й уровень)",
+      "rarity": "legendary",
+      "type": "Посох",
+      "url": "https://next.dnd.su/items/16904-enspelled-staff-level-6/"
+    },
+    {
+      "id": 16905,
+      "name": "Заговорённый посох (7-й уровень)",
+      "rarity": "legendary",
+      "type": "Посох",
+      "url": "https://next.dnd.su/items/16905-enspelled-staff-level-7/"
+    },
+    {
+      "id": 16906,
+      "name": "Заговорённый посох (8-й уровень)",
+      "rarity": "legendary",
+      "type": "Посох",
+      "url": "https://next.dnd.su/items/16906-enspelled-staff-level-8/"
+    },
+    {
+      "id": 16909,
+      "name": "Заговорённое оружие (1-й уровень)",
+      "rarity": "uncommon",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/16909-enspelled-weapon-level-1/"
+    },
+    {
+      "id": 16910,
+      "name": "Заговорённое оружие (заговор)",
+      "rarity": "uncommon",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/16910-enspelled-weapon-cantrip/"
+    },
+    {
+      "id": 16911,
+      "name": "Заговорённое оружие (2-й уровень)",
+      "rarity": "rare",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/16911-enspelled-weapon-level-2/"
+    },
+    {
+      "id": 16912,
+      "name": "Заговорённое оружие (3-й уровень)",
+      "rarity": "rare",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/16912-enspelled-weapon-level-3/"
+    },
+    {
+      "id": 16913,
+      "name": "Заговорённое оружие (4-й уровень)",
+      "rarity": "very_rare",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/16913-enspelled-weapon-level-4/"
+    },
+    {
+      "id": 16914,
+      "name": "Заговорённое оружие (5-й уровень)",
+      "rarity": "very_rare",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/16914-enspelled-weapon-level-5/"
+    },
+    {
+      "id": 16915,
+      "name": "Заговорённое оружие (6-й уровень)",
+      "rarity": "legendary",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/16915-enspelled-weapon-level-6/"
+    },
+    {
+      "id": 16916,
+      "name": "Заговорённое оружие (7-й уровень)",
+      "rarity": "legendary",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/16916-enspelled-weapon-level-7/"
+    },
+    {
+      "id": 16917,
+      "name": "Заговорённое оружие (8-й уровень)",
+      "rarity": "legendary",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/16917-enspelled-weapon-level-8/"
+    },
+    {
+      "id": 17060,
+      "name": "Волшебная палочка боевого мага +1",
+      "rarity": "uncommon",
+      "type": "Волшебная палочка",
+      "url": "https://next.dnd.su/items/17060-wand-of-the-war-mage-1/"
+    },
+    {
+      "id": 17061,
+      "name": "Волшебная палочка боевого мага +2",
+      "rarity": "rare",
+      "type": "Волшебная палочка",
+      "url": "https://next.dnd.su/items/17061-wand-of-the-war-mage-2/"
+    },
+    {
+      "id": 17062,
+      "name": "Волшебная палочка боевого мага +3",
+      "rarity": "very_rare",
+      "type": "Волшебная палочка",
+      "url": "https://next.dnd.su/items/17062-wand-of-the-war-mage-3/"
+    },
+    {
+      "id": 17113,
+      "name": "Жезл хранителя договора +1",
+      "rarity": "uncommon",
+      "type": "Жезл",
+      "url": "https://next.dnd.su/items/17113-rod-of-the-pact-keeper-1/"
+    },
+    {
+      "id": 17114,
+      "name": "Жезл хранителя договора +2",
+      "rarity": "rare",
+      "type": "Жезл",
+      "url": "https://next.dnd.su/items/17114-rod-of-the-pact-keeper-2/"
+    },
+    {
+      "id": 17115,
+      "name": "Жезл хранителя договора +3",
+      "rarity": "very_rare",
+      "type": "Жезл",
+      "url": "https://next.dnd.su/items/17115-rod-of-the-pact-keeper-3/"
+    },
+    {
+      "id": 17342,
+      "name": "Кольцо авантюриста",
+      "rarity": "common",
+      "type": "Кольцо",
+      "url": "https://next.dnd.su/items/17342-adventurers-ring/"
+    },
+    {
+      "id": 17351,
+      "name": "Ветряной челнок",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17351-windskiff/"
+    },
+    {
+      "id": 17408,
+      "name": "Доспех +1",
+      "rarity": "rare",
+      "type": "Доспех",
+      "url": "https://next.dnd.su/items/17408-armor-1/"
+    },
+    {
+      "id": 17409,
+      "name": "Доспех +2",
+      "rarity": "very_rare",
+      "type": "Доспех",
+      "url": "https://next.dnd.su/items/17409-armor-2/"
+    },
+    {
+      "id": 17410,
+      "name": "Доспех +3",
+      "rarity": "legendary",
+      "type": "Доспех",
+      "url": "https://next.dnd.su/items/17410-armor-3/"
+    },
+    {
+      "id": 17411,
+      "name": "Обмотки безоружной мощи +1",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17411-wraps-of-unarmed-power-1/"
+    },
+    {
+      "id": 17412,
+      "name": "Обмотки безоружной мощи +2",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17412-wraps-of-unarmed-power-2/"
+    },
+    {
+      "id": 17413,
+      "name": "Обмотки безоружной мощи +3",
+      "rarity": "very_rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17413-wraps-of-unarmed-power-3/"
+    },
+    {
+      "id": 17414,
+      "name": "Рог Вальхаллы (серебряный)",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17414-horn-of-valhalla-silver/"
+    },
+    {
+      "id": 17415,
+      "name": "Рог Вальхаллы (латунный)",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17415-horn-of-valhalla-brass/"
+    },
+    {
+      "id": 17416,
+      "name": "Рог Вальхаллы (бронзовый)",
+      "rarity": "very_rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17416-horn-of-valhalla-bronze/"
+    },
+    {
+      "id": 17417,
+      "name": "Рог Вальхаллы (железный)",
+      "rarity": "legendary",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17417-horn-of-valhalla-iron/"
+    },
+    {
+      "id": 17494,
+      "name": "Магический накопитель",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17494-arcane-battery/"
+    },
+    {
+      "id": 17495,
+      "name": "Брошь стихий",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17495-brooch-of-the-elements/"
+    },
+    {
+      "id": 17496,
+      "name": "Камертон призыва вихря",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17496-fork-of-eddy-summoning/"
+    },
+    {
+      "id": 17497,
+      "name": "Шляпа вихрей",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17497-hat-of-vortexes/"
+    },
+    {
+      "id": 17498,
+      "name": "Колокольчик магена",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17498-magen-handbell/"
+    },
+    {
+      "id": 17499,
+      "name": "Маска изменённого облика",
+      "rarity": "common",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17499-mask-of-changed-appearance/"
+    },
+    {
+      "id": 17500,
+      "name": "Браслет из мифаллара",
+      "rarity": "common",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17500-mythallar-bracelet/"
+    },
+    {
+      "id": 17501,
+      "name": "Плащ мифаллара",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17501-mythallar-cloak/"
+    },
+    {
+      "id": 17569,
+      "name": "Сапоги извилистого пути",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17569-boots-of-the-winding-path/"
+    },
+    {
+      "id": 17570,
+      "name": "Ослепительное оружие",
+      "rarity": "rare",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/17570-dazzling-weapon/"
+    },
+    {
+      "id": 17571,
+      "name": "Шлем осведомлённости",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17571-helm-of-awareness/"
+    },
+    {
+      "id": 17572,
+      "name": "Многообразный инструмент",
+      "rarity": "common",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17572-manifold-tool/"
+    },
+    {
+      "id": 17573,
+      "name": "Усилитель разума",
+      "rarity": "uncommon",
+      "type": "Кольцо",
+      "url": "https://next.dnd.su/items/17573-mind-sharpener/"
+    },
+    {
+      "id": 17574,
+      "name": "Оружие повторного выстрела",
+      "rarity": "uncommon",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/17574-repeating-shot/"
+    },
+    {
+      "id": 17575,
+      "name": "Отталкивающий щит",
+      "rarity": "uncommon",
+      "type": "Щит",
+      "url": "https://next.dnd.su/items/17575-repulsion-shield/"
+    },
+    {
+      "id": 17576,
+      "name": "Возвращающееся оружие",
+      "rarity": "uncommon",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/17576-returning-weapon/"
+    },
+    {
+      "id": 17577,
+      "name": "Кольцо восстановления заклинаний",
+      "rarity": "uncommon",
+      "type": "Кольцо",
+      "url": "https://next.dnd.su/items/17577-spell-refueling-ring/"
+    },
+    {
+      "id": 17707,
+      "name": "Щит +1",
+      "rarity": "uncommon",
+      "type": "Щит",
+      "url": "https://next.dnd.su/items/17707-shield-1/"
+    },
+    {
+      "id": 17708,
+      "name": "Щит +2",
+      "rarity": "rare",
+      "type": "Щит",
+      "url": "https://next.dnd.su/items/17708-shield-2/"
+    },
+    {
+      "id": 17709,
+      "name": "Щит +3",
+      "rarity": "very_rare",
+      "type": "Щит",
+      "url": "https://next.dnd.su/items/17709-shield-3/"
+    },
+    {
+      "id": 17721,
+      "name": "Пояс силы холмового великана",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17721-belt-of-hill-giant-strength/"
+    },
+    {
+      "id": 17722,
+      "name": "Пояс силы ледяного великана",
+      "rarity": "very_rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17722-belt-of-frost-giant-strength/"
+    },
+    {
+      "id": 17723,
+      "name": "Пояс силы каменного великана",
+      "rarity": "very_rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17723-belt-of-stone-giant-strength/"
+    },
+    {
+      "id": 17724,
+      "name": "Пояс силы огненного великана",
+      "rarity": "very_rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17724-belt-of-fire-giant-strength/"
+    },
+    {
+      "id": 17725,
+      "name": "Пояс силы облачного великана",
+      "rarity": "legendary",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17725-belt-of-cloud-giant-strength/"
+    },
+    {
+      "id": 17726,
+      "name": "Пояс силы штормового великана",
+      "rarity": "legendary",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17726-belt-of-storm-giant-strength/"
+    },
+    {
+      "id": 17744,
+      "name": "Справочник по глиняным големам",
+      "rarity": "very_rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17744-manual-of-golems-clay/"
+    },
+    {
+      "id": 17745,
+      "name": "Справочник по мясным големам",
+      "rarity": "very_rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17745-manual-of-golems-flesh/"
+    },
+    {
+      "id": 17746,
+      "name": "Справочник по железным големам",
+      "rarity": "very_rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17746-manual-of-golems-iron/"
+    },
+    {
+      "id": 17747,
+      "name": "Справочник по каменным големам",
+      "rarity": "very_rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17747-manual-of-golems-stone/"
+    },
+    {
+      "id": 17750,
+      "name": "Камень Айун (большое поглощение)",
+      "rarity": "legendary",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17750-ioun-stone-greater-absorption/"
+    },
+    {
+      "id": 17754,
+      "name": "Камень Айун (защита)",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17754-ioun-stone-protection/"
+    },
+    {
+      "id": 17755,
+      "name": "Камень Айун (искусность)",
+      "rarity": "legendary",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17755-ioun-stone-mastery/"
+    },
+    {
+      "id": 17757,
+      "name": "Камень Айун (лидерство)",
+      "rarity": "very_rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17757-ioun-stone-leadership/"
+    },
+    {
+      "id": 17758,
+      "name": "Камень Айун (осведомлённость)",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17758-ioun-stone-awareness/"
+    },
+    {
+      "id": 17759,
+      "name": "Камень Айун (питание)",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17759-ioun-stone-sustenance/"
+    },
+    {
+      "id": 17760,
+      "name": "Камень Айун (поглощение)",
+      "rarity": "very_rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17760-ioun-stone-absorption/"
+    },
+    {
+      "id": 17761,
+      "name": "Камень Айун (проворство)",
+      "rarity": "very_rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17761-ioun-stone-agility/"
+    },
+    {
+      "id": 17762,
+      "name": "Камень Айун (проницательность)",
+      "rarity": "very_rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17762-ioun-stone-insight/"
+    },
+    {
+      "id": 17763,
+      "name": "Камень Айун (стойкость)",
+      "rarity": "very_rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17763-ioun-stone-fortitude/"
+    },
+    {
+      "id": 17764,
+      "name": "Камень Айун (сила)",
+      "rarity": "very_rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17764-ioun-stone-strength/"
+    },
+    {
+      "id": 17765,
+      "name": "Камень Айун (резерв)",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17765-ioun-stone-reserve/"
+    },
+    {
+      "id": 17766,
+      "name": "Камень Айун (регенерация)",
+      "rarity": "legendary",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17766-ioun-stone-regeneration/"
+    },
+    {
+      "id": 17767,
+      "name": "Камень Айун (рассудок)",
+      "rarity": "very_rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17767-ioun-stone-intellect/"
+    },
+    {
+      "id": 17768,
+      "name": "Свиток заклинания (заговор)",
+      "rarity": "common",
+      "type": "Свиток",
+      "url": "https://next.dnd.su/items/17768-spell-scroll-cantrip/"
+    },
+    {
+      "id": 17769,
+      "name": "Свиток заклинания (1-й уровень)",
+      "rarity": "common",
+      "type": "Свиток",
+      "url": "https://next.dnd.su/items/17769-spell-scroll-level-1/"
+    },
+    {
+      "id": 17770,
+      "name": "Свиток заклинания (2-й уровень)",
+      "rarity": "uncommon",
+      "type": "Свиток",
+      "url": "https://next.dnd.su/items/17770-spell-scroll-level-2/"
+    },
+    {
+      "id": 17771,
+      "name": "Свиток заклинания (3-й уровень)",
+      "rarity": "uncommon",
+      "type": "Свиток",
+      "url": "https://next.dnd.su/items/17771-spell-scroll-level-3/"
+    },
+    {
+      "id": 17772,
+      "name": "Свиток заклинания (4-й уровень)",
+      "rarity": "rare",
+      "type": "Свиток",
+      "url": "https://next.dnd.su/items/17772-spell-scroll-level-4/"
+    },
+    {
+      "id": 17773,
+      "name": "Свиток заклинания (5-й уровень)",
+      "rarity": "rare",
+      "type": "Свиток",
+      "url": "https://next.dnd.su/items/17773-spell-scroll-level-5/"
+    },
+    {
+      "id": 17774,
+      "name": "Свиток заклинания (6-й уровень)",
+      "rarity": "very_rare",
+      "type": "Свиток",
+      "url": "https://next.dnd.su/items/17774-spell-scroll-level-6/"
+    },
+    {
+      "id": 17775,
+      "name": "Свиток заклинания (7-й уровень)",
+      "rarity": "very_rare",
+      "type": "Свиток",
+      "url": "https://next.dnd.su/items/17775-spell-scroll-level-7/"
+    },
+    {
+      "id": 17776,
+      "name": "Свиток заклинания (8-й уровень)",
+      "rarity": "very_rare",
+      "type": "Свиток",
+      "url": "https://next.dnd.su/items/17776-spell-scroll-level-8/"
+    },
+    {
+      "id": 17777,
+      "name": "Свиток заклинания (9-й уровень)",
+      "rarity": "legendary",
+      "type": "Свиток",
+      "url": "https://next.dnd.su/items/17777-spell-scroll-level-9/"
+    },
+    {
+      "id": 17778,
+      "name": "Перо Кваля (веер)",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17778-quaals-feather-token-fan/"
+    },
+    {
+      "id": 17779,
+      "name": "Перо Кваля (дерево)",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17779-quaals-feather-token-tree/"
+    },
+    {
+      "id": 17780,
+      "name": "Перо Кваля (кнут)",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17780-quaals-feather-token-whip/"
+    },
+    {
+      "id": 17781,
+      "name": "Перо Кваля (лодка-лебедь)",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17781-quaals-feather-token-swan-boat/"
+    },
+    {
+      "id": 17782,
+      "name": "Перо Кваля (птица)",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17782-quaals-feather-token-bird/"
+    },
+    {
+      "id": 17783,
+      "name": "Перо Кваля (якорь)",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17783-quaals-feather-token-anchor/"
+    },
+    {
+      "id": 17784,
+      "name": "Статуэтка чудесной силы (бронзовый грифон)",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17784-figurine-of-wondrous-power-bronze-griffon/"
+    },
+    {
+      "id": 17785,
+      "name": "Статуэтка чудесной силы (золотые львы)",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17785-figurine-of-wondrous-power-golden-lions/"
+    },
+    {
+      "id": 17786,
+      "name": "Статуэтка чудесной силы (костяные козлы)",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17786-figurine-of-wondrous-power-ivory-goats/"
+    },
+    {
+      "id": 17787,
+      "name": "Статуэтка чудесной силы (мраморный слон)",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17787-figurine-of-wondrous-power-marble-elephant/"
+    },
+    {
+      "id": 17788,
+      "name": "Статуэтка чудесной силы (обсидиановый скакун)",
+      "rarity": "very_rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17788-figurine-of-wondrous-power-obsidian-steed/"
+    },
+    {
+      "id": 17789,
+      "name": "Статуэтка чудесной силы (ониксовая собака)",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17789-figurine-of-wondrous-power-onyx-dog/"
+    },
+    {
+      "id": 17790,
+      "name": "Статуэтка чудесной силы (серебряный ворон)",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17790-figurine-of-wondrous-power-silver-raven/"
+    },
+    {
+      "id": 17791,
+      "name": "Статуэтка чудесной силы (серпентиновая сова)",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17791-figurine-of-wondrous-power-serpentine-owl/"
+    },
+    {
+      "id": 17792,
+      "name": "Статуэтка чудесной силы (эбеновая муха)",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/17792-figurine-of-wondrous-power-ebony-fly/"
+    },
+    {
+      "id": 17793,
+      "name": "Кольцо командования элементалями (воздух)",
+      "rarity": "legendary",
+      "type": "Кольцо",
+      "url": "https://next.dnd.su/items/17793-ring-of-elemental-command-air/"
+    },
+    {
+      "id": 17794,
+      "name": "Кольцо командования элементалями (вода)",
+      "rarity": "legendary",
+      "type": "Кольцо",
+      "url": "https://next.dnd.su/items/17794-ring-of-elemental-command-water/"
+    },
+    {
+      "id": 17795,
+      "name": "Кольцо командования элементалями (земля)",
+      "rarity": "legendary",
+      "type": "Кольцо",
+      "url": "https://next.dnd.su/items/17795-ring-of-elemental-command-earth/"
+    },
+    {
+      "id": 17796,
+      "name": "Кольцо командования элементалями (огонь)",
+      "rarity": "legendary",
+      "type": "Кольцо",
+      "url": "https://next.dnd.su/items/17796-ring-of-elemental-command-fire/"
+    },
+    {
+      "id": 18611,
+      "name": "Гримуар дракона",
+      "rarity": "legendary",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/18611-tome-of-the-dragon/"
+    },
+    {
+      "id": 18693,
+      "name": "Серебряная брошь Арфиста",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/18693-silver-harper-pin/"
+    },
+    {
+      "id": 18694,
+      "name": "Золотая брошь Арфиста",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/18694-golden-harper-pin/"
+    },
+    {
+      "id": 18701,
+      "name": "Механическое диво домашнее",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/18701-mechanical-domestic-wonder/"
+    },
+    {
+      "id": 18702,
+      "name": "Механическое диво летающее",
+      "rarity": "common",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/18702-mechanical-flying-wonder/"
+    },
+    {
+      "id": 18703,
+      "name": "Механическое диво-гирокоптер",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/18703-mechanical-gyrocopter-wonder/"
+    },
+    {
+      "id": 18705,
+      "name": "Механическое диво подвижности",
+      "rarity": "common",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/18705-mechanical-mobility-wonder/"
+    },
+    {
+      "id": 21136,
+      "name": "Волшебный шатлен",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/21136-arcane-chatelaine/"
+    },
+    {
+      "id": 21137,
+      "name": "Бестиарий арканиста",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/21137-arcanists-bestiary/"
+    },
+    {
+      "id": 21138,
+      "name": "Меха удушения",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/21138-bellows-of-strangulation/"
+    },
+    {
+      "id": 21139,
+      "name": "Амулет крови",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/21139-blood-amulet/"
+    },
+    {
+      "id": 21140,
+      "name": "Кольца верных товарищей",
+      "rarity": "uncommon",
+      "type": "Кольцо",
+      "url": "https://next.dnd.su/items/21140-boon-companions-bands/"
+    },
+    {
+      "id": 21141,
+      "name": "Навес призывателя",
+      "rarity": "common",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/21141-conjurers-canopy/"
+    },
+    {
+      "id": 21143,
+      "name": "Алмазный посох",
+      "rarity": "legendary",
+      "type": "Посох",
+      "url": "https://next.dnd.su/items/21143-diamond-staff/"
+    },
+    {
+      "id": 21144,
+      "name": "Перо диктата",
+      "rarity": "common",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/21144-dictation-quill/"
+    },
+    {
+      "id": 21145,
+      "name": "Боеприпас рассеивания",
+      "rarity": "uncommon",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/21145-dispelling-ammunition/"
+    },
+    {
+      "id": 21146,
+      "name": "Посох отваживания",
+      "rarity": "rare",
+      "type": "Посох",
+      "url": "https://next.dnd.su/items/21146-dissuader/"
+    },
+    {
+      "id": 21147,
+      "name": "Ткач снов",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/21147-dream-weaver/"
+    },
+    {
+      "id": 21148,
+      "name": "Словарь оратора",
+      "rarity": "common",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/21148-elocutionists-lexicon/"
+    },
+    {
+      "id": 21149,
+      "name": "Зачарованное послание",
+      "rarity": "common",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/21149-ensorcelled-missive/"
+    },
+    {
+      "id": 21150,
+      "name": "Удобрение вечной зелени",
+      "rarity": "common",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/21150-evergreen-fertilizer/"
+    },
+    {
+      "id": 21151,
+      "name": "Боеприпас провокации",
+      "rarity": "uncommon",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/21151-goading-ammunition/"
+    },
+    {
+      "id": 21152,
+      "name": "Могильный жнец",
+      "rarity": "legendary",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/21152-grave-reaper/"
+    },
+    {
+      "id": 21153,
+      "name": "Компас возвращения домой",
+      "rarity": "common",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/21153-homeward-compass/"
+    },
+    {
+      "id": 21154,
+      "name": "Кроличья лапка",
+      "rarity": "common",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/21154-lucky-foot/"
+    },
+    {
+      "id": 21155,
+      "name": "Разрушитель чар",
+      "rarity": "rare",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/21155-mage-breaker/"
+    },
+    {
+      "id": 21156,
+      "name": "Оковы магов",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/21156-mages-manacle/"
+    },
+    {
+      "id": 21157,
+      "name": "Перчатки магического ремесла",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/21157-magewrights-gloves/"
+    },
+    {
+      "id": 21158,
+      "name": "Посох мастера боя",
+      "rarity": "uncommon",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/21158-martialists-quarterstaff/"
+    },
+    {
+      "id": 21159,
+      "name": "Игла имён",
+      "rarity": "rare",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/21159-namers-needle/"
+    },
+    {
+      "id": 21163,
+      "name": "Сфера обнаружения прорицания",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/21163-orb-of-divination-detection/"
+    },
+    {
+      "id": 21164,
+      "name": "Сфера чародейства",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/21164-orb-of-sorcery/"
+    },
+    {
+      "id": 21165,
+      "name": "Зелье дыхания дракона",
+      "rarity": "uncommon",
+      "type": "Зелье",
+      "url": "https://next.dnd.su/items/21165-potion-of-dragons-breath/"
+    },
+    {
+      "id": 21166,
+      "name": "Зелье неустанности",
+      "rarity": "uncommon",
+      "type": "Зелье",
+      "url": "https://next.dnd.su/items/21166-potion-of-tirelessness/"
+    },
+    {
+      "id": 21167,
+      "name": "Многоцветная руна",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/21167-prismatic-rune/"
+    },
+    {
+      "id": 21169,
+      "name": "Кольцо совершенной концентрации",
+      "rarity": "uncommon",
+      "type": "Кольцо",
+      "url": "https://next.dnd.su/items/21169-ring-of-dedicated-focus/"
+    },
+    {
+      "id": 21170,
+      "name": "Браслет сосредоточенности учёного",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/21170-scholars-anchoring-bangle/"
+    },
+    {
+      "id": 21171,
+      "name": "Обруч хранителя тайн",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/21171-secret-keepers-circlet/"
+    },
+    {
+      "id": 21172,
+      "name": "Кольцо компонентов заклинаний",
+      "rarity": "common",
+      "type": "Кольцо",
+      "url": "https://next.dnd.su/items/21172-spell-component-ring/"
+    },
+    {
+      "id": 21173,
+      "name": "Трофей заклинателя-дуэлянта",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/21173-spell-duelists-trophy/"
+    },
+    {
+      "id": 21174,
+      "name": "Кукла заклинателя",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/21174-spell-slingers-puppet/"
+    },
+    {
+      "id": 21175,
+      "name": "Посох блужданий",
+      "rarity": "very_rare",
+      "type": "Посох",
+      "url": "https://next.dnd.su/items/21175-staff-of-the-lost/"
+    },
+    {
+      "id": 21177,
+      "name": "Метущая метла",
+      "rarity": "common",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/21177-sweeping-broom/"
+    },
+    {
+      "id": 21178,
+      "name": "Театральная программка",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/21178-thespians-playbill/"
+    },
+    {
+      "id": 21179,
+      "name": "Напёрсток вора",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/21179-thiefs-thimble/"
+    },
+    {
+      "id": 21180,
+      "name": "Доспех трамонтаны",
+      "rarity": "very_rare",
+      "type": "Доспех",
+      "url": "https://next.dnd.su/items/21180-tramontane-armor/"
+    },
+    {
+      "id": 21181,
+      "name": "Жемчужина путешественника",
+      "rarity": "legendary",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/21181-travelers-pearl/"
+    },
+    {
+      "id": 21183,
+      "name": "Волшебная палочка свежести",
+      "rarity": "uncommon",
+      "type": "Волшебная палочка",
+      "url": "https://next.dnd.su/items/21183-wand-of-freshness/"
+    },
+    {
+      "id": 21184,
+      "name": "Волшебная палочка сновидений",
+      "rarity": "rare",
+      "type": "Волшебная палочка",
+      "url": "https://next.dnd.su/items/21184-wand-of-slumber/"
+    },
+    {
+      "id": 21185,
+      "name": "Волшебная палочка зубов",
+      "rarity": "rare",
+      "type": "Волшебная палочка",
+      "url": "https://next.dnd.su/items/21185-wand-of-teeth/"
+    },
+    {
+      "id": 21186,
+      "name": "Разрушитель мастерских",
+      "rarity": "very_rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/21186-workshop-wrecker/"
+    },
+    {
+      "id": 21316,
+      "name": "Клинок иссушения жизни",
+      "rarity": "rare",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/21316-life-sapping-blade/"
+    },
+    {
+      "id": 21317,
+      "name": "Очи обмана",
+      "rarity": "uncommon",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/21317-eyes-of-deceit/"
+    },
+    {
+      "id": 21318,
+      "name": "Хрустальный шар дурных знамений",
+      "rarity": "legendary",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/21318-crystal-ball-of-ominous-portent/"
+    },
+    {
+      "id": 21319,
+      "name": "Кольцо искренности",
+      "rarity": "uncommon",
+      "type": "Кольцо",
+      "url": "https://next.dnd.su/items/21319-ring-of-candor/"
+    },
+    {
+      "id": 21323,
+      "name": "Брошь маскарада",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/21323-masqueraders-brooch/"
+    },
+    {
+      "id": 21324,
+      "name": "Мантия тэйского мага",
+      "rarity": "very_rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/21324-robe-of-thayan-arcana/"
+    },
+    {
+      "id": 21325,
+      "name": "Алая книга заклинаний",
+      "rarity": "rare",
+      "type": "Чудесный предмет",
+      "url": "https://next.dnd.su/items/21325-scarlet-spellbook/"
+    },
+    {
+      "id": 21326,
+      "name": "Браслет меткого стрелка",
+      "rarity": "common",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/21326-snipers-bracelet/"
+    },
+    {
+      "id": 21327,
+      "name": "Доспех восстановления заклинаний",
+      "rarity": "very_rare",
+      "type": "Доспех",
+      "url": "https://next.dnd.su/items/21327-spell-fueling-armor/"
+    },
+    {
+      "id": 21329,
+      "name": "Посох эгиды духов",
+      "rarity": "legendary",
+      "type": "Посох",
+      "url": "https://next.dnd.su/items/21329-staff-of-the-spirit-aegis/"
+    },
+    {
+      "id": 21330,
+      "name": "Тэйский меч",
+      "rarity": "rare",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/21330-thayan-sword/"
+    },
+    {
+      "id": 21331,
+      "name": "Потайное оружие",
+      "rarity": "common",
+      "type": "Оружие",
+      "url": "https://next.dnd.su/items/21331-trick-weapon/"
+    },
+    {
+      "id": 21332,
+      "name": "Волшебная палочка златоуста",
+      "rarity": "uncommon",
+      "type": "Волшебная палочка",
+      "url": "https://next.dnd.su/items/21332-wand-of-enthralling/"
+    }
+  ]
+}
