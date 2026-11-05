@@ -23,7 +23,11 @@ from tavern import TavernMixin
 
 from characters import CharactersMixin
 
-class Engine(GamesMixin,TavernMixin,CharactersMixin):
+from map_rules import MapMixin
+
+from token_rules import TokensMixin
+
+class Engine(GamesMixin,TavernMixin,CharactersMixin,MapMixin,TokensMixin):
     error = RuleError
     def __init__(self, path='data/tavern.sqlite3', clock=None):
         self.clock = clock or (lambda: datetime.now(TZ).date())
@@ -66,6 +70,7 @@ class Engine(GamesMixin,TavernMixin,CharactersMixin):
         if 'paused' not in [r[1] for r in self.db.execute('PRAGMA table_info(players)')]:
             self.db.execute('ALTER TABLE players ADD COLUMN paused INTEGER NOT NULL DEFAULT 0')
         self.characters_schema()
+        self.map_schema()
 
     @contextlib.contextmanager
     def tx(self):
@@ -159,11 +164,21 @@ class Engine(GamesMixin,TavernMixin,CharactersMixin):
 
     def visit(self, uid):
         with self.tx():
+            if self.meta_value('map_weekly')=='1':raise RuleError('Включён недельный режим: ход выдаётся автоматически. /mapgrant обновляет только передвижение.')
             p=self.player(uid)
             if p['visit']==str(self.clock()): raise RuleError('Ход за сегодняшний визит уже выдан.')
             self.db.execute('UPDATE players SET visit=?,turn=1,extra_used=0 WHERE uid=?',
                             (str(self.clock()),uid))
+            if not p['paused'] and self.char_data(uid)['speed_ft'] is not None:self.map_grant(uid,'visit:'+str(self.clock()))
             self.notify(uid,'Новый визит: одно основное действие. Старое не накапливается.')
+
+    def action_available(self,uid,resource):
+        p=self.require_alive(uid)
+        if resource=='base':
+            if not p['turn']:raise RuleError('Основное действие сейчас недоступно.')
+        elif resource=='inspiration':
+            if not p['inspiration'] or p['extra_used'] or not p['visit'] or p['turn']:raise RuleError('Дополнительное действие недоступно: нужно Вдохновение и уже потраченный основной ход.')
+        else:raise RuleError('Неизвестный ресурс действия.')
 
     def request(self, uid, kind, payload):
         if kind not in ('action','rent','storage','spend','roy_theft'): raise RuleError('Неизвестная заявка.')
@@ -194,6 +209,7 @@ class Engine(GamesMixin,TavernMixin,CharactersMixin):
             return c.lastrowid
 
     def _validate_trade(self, a, b, p, exclude=0):
+        self.map_trade_check(a,b)
         for uid,side in ((a,'give'),(b,'take')):
             pl=self.player(uid)
             if pl['dead'] or pl['paused']: raise RuleError('Призраки и персонажи на паузе не торгуют.')
@@ -327,6 +343,7 @@ class Engine(GamesMixin,TavernMixin,CharactersMixin):
             raise RuleError('Неверные условия кражи.')
         with self.tx():
             self.require_alive(thief); v=self.player(victim)
+            if source=='wallet':self.map_trade_check(thief,victim)
             passive=self.char_data(victim)['passive']
             if passive is None:raise RuleError('Мастер должен заполнить пассивное Восприятие жертвы.')
             if v['dead'] or v['paused']: raise RuleError('Кражи у призраков и персонажей на паузе не разрешены.')
@@ -395,6 +412,7 @@ class Engine(GamesMixin,TavernMixin,CharactersMixin):
             self.player(uid); self._settle(uid,self.clock())
             self._cancel_trades(uid,'изменился статус участия')
             self.db.execute('UPDATE players SET paused=?,settled=? WHERE uid=?',(value,str(self.clock()),uid))
+            self.db.execute('UPDATE map_positions SET rev=rev+1 WHERE uid=?',(uid,))
             self.log(uid,'pause',0,f'Пауза: {value}')
 
     def reclaim(self, uid):

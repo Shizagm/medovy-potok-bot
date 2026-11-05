@@ -25,6 +25,7 @@ class CharacterInterfaceMixin:
         text+='\n\n🔒 Полную карточку видят ты, мастер и купивший её снимок герой.'
         if p['dead']:rows=[[('🕯 Выкупить себя · 1000 зм','resoffer:'+str(uid))],[('🍯 Меню','home')]]
         else:rows=[[('📝 Заполнить / обновить карточку','charedit')],[('🖐 Сделать ход','actions'),('🪙 Кошелёк','wallet')],[('📚 Купленные сведения','dossiers'),('🍯 Меню','home')]]
+        rows.insert(0,[('🟣 Портрет жетона','token')])
         self.send(uid,text,kb(rows))
 
     def ui_wallet(self,uid):

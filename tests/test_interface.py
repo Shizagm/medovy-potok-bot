@@ -46,10 +46,11 @@ class Interface(unittest.TestCase):
         self.assertEqual(p['name'],'Лиара');self.assertEqual(p['party'],'Третий отряд')
         self.assertFalse(p['approved']);self.assertIsNone(self.bot.ui_state(4))
     def test_guided_action_creates_one_request(self):
+        self.e.visit(1)
         self.cmd(1,'/ui action base');self.answer(1,'Ищу записку у Роя')
         r=self.e.req(1)
         self.assertEqual(r['payload']['text'],'Ищу записку у Роя')
-        self.assertEqual(self.e.player(1)['turn'],0)
+        self.assertEqual(self.e.player(1)['turn'],1)
         self.assertIsNone(self.bot.ui_state(1))
     def test_cancel_aborts_input(self):
         self.cmd(1,'/ui spend');self.cmd(1,'/ui cancel');self.answer(1,'100')

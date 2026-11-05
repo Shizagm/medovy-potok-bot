@@ -1,4 +1,4 @@
-"""Telegram long-polling transport, standard library only. Python 3.11+."""
+"""Telegram long-polling transport. Pillow renders portraits; Python 3.11+."""
 import json
 import logging
 import os
@@ -50,8 +50,43 @@ class Telegram:
         if not result.get('ok'): raise TelegramError(result.get('description','Ошибка анимации'))
         return result['result']
 
+    def upload_photo(self, png, **data):
+        import uuid
+        boundary='RoyMap'+uuid.uuid4().hex
+        chunks=[]
+        for key,value in data.items():
+            value=json.dumps(value,ensure_ascii=False) if isinstance(value,(dict,list)) else str(value)
+            chunks.append((f'--{boundary}\r\nContent-Disposition: form-data; name="{key}"\r\n\r\n{value}\r\n').encode())
+        chunks.append((f'--{boundary}\r\nContent-Disposition: form-data; name="photo"; filename="tavern.png"\r\nContent-Type: image/png\r\n\r\n').encode())
+        chunks.extend([png,f'\r\n--{boundary}--\r\n'.encode()])
+        req=urllib.request.Request('https://api.telegram.org/bot'+self.token+'/sendPhoto',data=b''.join(chunks),headers={'Content-Type':'multipart/form-data; boundary='+boundary})
+        try:
+            with urllib.request.urlopen(req,timeout=45) as response:result=json.load(response)
+        except urllib.error.HTTPError as exc:raise TelegramError(f'Ошибка отправки карты: HTTP {exc.code}') from None
+        except (urllib.error.URLError,TimeoutError,OSError):raise TelegramError('Нет соединения при отправке карты') from None
+        if not result.get('ok'):raise TelegramError(result.get('description','Ошибка карты'))
+        return result['result']
+
+    def download_image(self, file_id):
+        from token_rules import MAX_UPLOAD
+        from urllib.parse import quote
+        info=self.call('getFile',file_id=file_id)
+        path=info.get('file_path','')
+        if not path or path.startswith('/') or '..' in path.split('/') or not re.fullmatch(r'[A-Za-z0-9_./-]+',path):raise TelegramError('Telegram вернул некорректный путь изображения.')
+        if info.get('file_size',0)>MAX_UPLOAD:raise RuleError('Портрет должен быть не больше 5 МБ.')
+        try:
+            with urllib.request.urlopen('https://api.telegram.org/file/bot'+self.token+'/'+quote(path,safe='/'),timeout=45) as response:
+                raw=response.read(MAX_UPLOAD+1)
+        except (urllib.error.URLError,TimeoutError,OSError):raise TelegramError('Не удалось скачать портрет из Telegram. Попробуй прислать его снова.') from None
+        if len(raw)>MAX_UPLOAD:raise RuleError('Портрет должен быть не больше 5 МБ.')
+        return raw
+
 HELP='''Медовый поток · Рой
 /profile — профиль, золото, Вдохновение и предметы
+/token — портрет для жетона
+/enter — войти на карту, если ожидал свободного места
+/map — карта и положение
+/move L12 — маршрут к клетке; /move rooms W10 — на другой этаж
 /poker — выбрать соперника и ставку кнопками
 /poker ID СТАВКА — прямой вызов; до двух перебросов, закрытые руки
 /pokerview НОМЕР — открыть стол; /pokerroll НОМЕР — бросить пять костей
@@ -69,9 +104,12 @@ HELP='''Медовый поток · Рой
 /cancel 12 — отмена своей заявки
 /history — мои последние операции (без тайных имён)
 /id — мой ID и ID текущего чата/темы
-Все личные операции — в переписке с ботом. Условия сделки и соседство токенов проверяет мастер.'''
+Все личные операции — в переписке с ботом. Условия сделки проверяет мастер; соседство автоматически проверяется при включённом режиме карты.'''
 
 ADMIN='''Мастер · команды в личной переписке
+/mapadmin — карта, двери, туман, позиции и недельные ходы
+/npcs — НПС/монстры и команды их настройки
+/playertoken ID — загрузить портрет героя
 /players — игроки и ID
 /inspect ID — профиль другого героя
 /pause ID 1 — приостановить участие и начисления; 0 — возобновить
@@ -118,7 +156,11 @@ from interface import InterfaceMixin
 from feature_interface import FeatureInterfaceMixin
 from character_interface import CharacterInterfaceMixin
 
-class Bot(CharacterInterfaceMixin,FeatureInterfaceMixin,InterfaceMixin):
+from map_ui import MapInterfaceMixin
+
+from token_ui import TokenInterfaceMixin
+
+class Bot(TokenInterfaceMixin,MapInterfaceMixin,CharacterInterfaceMixin,FeatureInterfaceMixin,InterfaceMixin):
     def __init__(self, api, engine, admins, group, topic=0):
         self.api,self.e,self.admins,self.group,self.topic=api,engine,set(admins),group,topic
         self.running=True
@@ -332,6 +374,12 @@ class Bot(CharacterInterfaceMixin,FeatureInterfaceMixin,InterfaceMixin):
             self.send(chat,HELP,keyboard([[('🍯 Главное меню','ui:home')]]));return
         if chat!=self.group and not private: raise RuleError('Команда доступна в таверне или личной переписке.')
         self.member(uid)
+        if cmd in ('/token','/enter','/npc','/npcdel','/npctoken','/npcs','/playertoken'):
+            if not private:raise RuleError('Портреты и НПС настраиваются в личной переписке с Роем.')
+            self.token_command(uid,cmd,tail);return
+        if cmd in ('/map','/move','/mapmode','/mapgrant','/mapplace','/mapdoor','/mapreveal','/mapload','/mapweekly','/mapadmin'):
+            if not private:raise RuleError('Открой карту в личной переписке с Роем.')
+            self.map_command(uid,cmd,tail);return
         if cmd in ('/ui','/uianswer'):
             if not private:raise RuleError('🍯 Эти кнопки работают в личной переписке с Роем. Открой /start у бота.')
             if cmd=='/uianswer':self.ui_answer(uid,tail)
@@ -570,6 +618,15 @@ class Bot(CharacterInterfaceMixin,FeatureInterfaceMixin,InterfaceMixin):
             else: return
             try: self.api.call('answerCallbackQuery',callback_query_id=cb['id'])
             except TelegramError: pass
+        elif msg and (msg.get('photo') or msg.get('document')) and msg.get('chat',{}).get('type')=='private':
+            uid=msg.get('from',{}).get('id')
+            if not uid or msg.get('sender_chat'):return
+            try:
+                with self.e.tx():
+                    self.token_receive(uid,msg)
+                    self.e.db.execute("INSERT OR REPLACE INTO meta VALUES('offset',?)",(str(update['update_id']+1),))
+            except RuleError as exc:self.send(uid,str(exc))
+            return
         elif msg and msg.get('text','').startswith('/'):
             uid=msg.get('from',{}).get('id'); text=msg['text']
         elif msg and msg.get('text') and msg.get('chat',{}).get('type')=='private' and self.ui_state(msg.get('from',{}).get('id')):
@@ -586,6 +643,7 @@ class Bot(CharacterInterfaceMixin,FeatureInterfaceMixin,InterfaceMixin):
             self.send(chat,detail)
 
     def housekeeping(self):
+        self.e.map_tick()
         for gid in self.e.expire_poker():self.post_poker(gid)
         today=self.e.clock(); monday=today.fromordinal(today.toordinal()-today.weekday())
         row=self.e.db.execute("SELECT value FROM meta WHERE key='week'").fetchone()
@@ -611,7 +669,11 @@ class Bot(CharacterInterfaceMixin,FeatureInterfaceMixin,InterfaceMixin):
                     self.tag_error_at=time.time()
         for row in self.e.db.execute('SELECT * FROM outbox WHERE sent=0 ORDER BY id LIMIT 40').fetchall():
             try:
-                if row['text'].startswith('@CARD@'):
+                if row['text'].startswith('@MAP@'):
+                    request=json.loads(row['text'][len('@MAP@'):])
+                    png,caption,markup=self.map_photo(request['uid'],request['area'])
+                    self.api.upload_photo(png,chat_id=row['target'],caption=caption,reply_markup=markup)
+                elif row['text'].startswith('@CARD@'):
                     card=json.loads(row['text'][len('@CARD@'):])
                     key=card.get('key')
                     previous=self.e.db.execute('SELECT value FROM meta WHERE key=?',(key,)).fetchone() if key else None

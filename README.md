@@ -1,7 +1,7 @@
-# «Медовый поток» · бот Роя 0.7
+# «Медовый поток» · бот Роя 0.9
 
-Windows и Linux, Python 3.11+, стандартная библиотека. Сторонние Python-пакеты
-для запуска не нужны. Код содержит игровые домашние правила клуба «Феникс».
+Windows и Linux, Python 3.11+. Для портретов требуется Pillow из requirements.txt.
+Dockerfile устанавливает пакет автоматически; Windows START_BOT.bat проверяет его. Код содержит игровые домашние правила клуба «Феникс».
 
 **Закрытые карточки и выкуп у Шизы 0.7:** CHARACTERS.md.
 **Рой, лавка и копилка:** ROY_AND_SHOP.md.
@@ -15,6 +15,9 @@ Windows и Linux, Python 3.11+, стандартная библиотека. С�
 порты на роутере не нужны. Компьютер должен работать без сна и иметь доступ
 к api.telegram.org. Бот не хранит токен в опубликованном архиве. Введите его
 локально через CONFIGURE.bat; настройки остаются в .env.
+
+**Жетоны, занятые клетки и НПС 0.9:** TOKENS.md.
+**Карта и передвижение:** MAPS.md. Начальная схема тестовая; режимы включаются мастером.
 
 ## Возможности
 
@@ -178,6 +181,7 @@ Windows и Linux, Python 3.11+, стандартная библиотека. С�
 cp .env.example .env
 # Заполнить BOT_TOKEN, ADMIN_IDS, TAVERN_CHAT_ID в редакторе
 chmod 600 .env
+python3.11 -m pip install -r requirements.txt
 python3.11 bot.py
 ```
 
@@ -208,10 +212,10 @@ PUBLIC_TOPIC_ID — номер темы внутри закрытой групп
 
 ```bash
 python3 -m unittest discover -s tests -q
-python3 -m py_compile bot.py engine.py games.py tavern.py characters.py character_interface.py feature_interface.py interface.py configure_windows.py instance_lock.py setup_ids.py
+python3 -m py_compile bot.py engine.py games.py tavern.py map_rules.py map_ui.py map_render.py token_rules.py token_ui.py characters.py character_interface.py feature_interface.py interface.py configure_windows.py instance_lock.py setup_ids.py
 ```
 
-189 автотестов: закрытые карточки, приватность, платные снимки, смерть, выкуп, восстановление штрафа, кошелёк Роя, лавка, рублёвая копилка, меню, пошаговый ввод, финансовые подтверждения, базовая экономика, права, миграция, тайные руки, все 7776 наборов
+300 автотестов: портреты, единичное занятие клетки, проход без доплаты, НПС и монстры, загрузка изображений и миграция, маршруты, двери, лестницы, туман, призраки, соседство, недельные ходы, очередь PNG и сохранение карты, закрытые карточки, приватность, платные снимки, смерть, выкуп, восстановление штрафа, кошелёк Роя, лавка, рублёвая копилка, меню, пошаговый ввод, финансовые подтверждения, базовая экономика, права, миграция, тайные руки, все 7776 наборов
 пяти d6, перебросы, старые кнопки, полный цикл, тайм-ауты, выплаты и перезапуск.
 На настоящем Windows и Telegram пользователя новую сборку нужно проверить.
 Официальный API: https://core.telegram.org/bots/api

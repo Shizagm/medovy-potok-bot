@@ -39,11 +39,12 @@ class InterfaceMixin:
             if uid in self.admins:rows.append([('🗝 Стойка мастера','admin')])
             self.send(uid,f'🍯 КНИГА ГОСТЕЙ\n\n{p["name"]}, твоя запись ждёт подтверждения мастера.\nКак только он её одобрит, открою меню таверны.',kb(rows));return
         if p['dead']:
-            rows=[[('👤 Мой герой','hero'),('🕯 Выкупить себя','resoffer:'+str(uid))],[('🪙 Посмотреть золото','wallet'),('📖 Правила','rules')],[('📚 Мои сведения','dossiers')]]
+            rows=[[('👤 Мой герой','hero'),('🕯 Выкупить себя','resoffer:'+str(uid))],[('🪙 Посмотреть золото','wallet'),('📖 Правила','rules')],[('📚 Мои сведения','dossiers'),('🗺 Карта','map')]]
             if uid in self.admins:rows.append([('🗝 Стойка мастера','admin')])
             self.send(uid,f'🕯 МЕДОВЫЙ ПОТОК\n{p["name"]} · призрак\n\nПока доступны полёт и общение. Переверни жетон обратной стороной.\nВернуться к жизни можно за 1000 зм у Шизы.',kb(rows));return
         total=p['wallet']+p['chest']+p['custody']+self.ui_escrow(uid)
         rows=[[('👤 Мой герой','hero'),('🪙 Кошелёк','wallet')],[('📜 Доска Роя','board'),('🎲 Покер на костях','poker')],[('🏆 Рейтинги','ratings'),('🗝 Моё место','house')],[('🖐 Сделать ход','actions'),('📨 Мои заявки','requests')],[('🤝 Сделка','trade'),('📖 Правила','rules')]]
+        rows.append([('🗺 Карта и передвижение','map')])
         rows.append([('🎁 Лавка Роя','shop'),('🍯 Кошелёк Роя','roy')])
         rows.append([('🔎 Сведения о героях','charlist'),('🕯 Выкуп у Шизы','resmenu')])
         if self.e.meta_value('support_enabled','0')=='1':rows.append([('🔥 Поддержка «Феникса»','support')])
@@ -76,12 +77,15 @@ class InterfaceMixin:
 
     def ui_admin(self,uid):
         self.ui_admin_required(uid);self.ui_clear(uid)
-        self.send(uid,'🗝 СТОЙКА МАСТЕРА\n\nИгрокам сюда не заглядывать.\nЗаявки, награды и книга гостей — всё под рукой.',kb([[('👥 Гости','adminplayers'),('📨 Все заявки','adminpending')],[('🪙 Изменить золото','select:gold'),('✨ Вдохновение','select:inspire')],[('🖐 Выдать ход','select:visit'),('📜 Изменить доску','boardedit')],[('🎁 Лавка, Рой и копилка','features')],[('💾 Создать копию','backup'),('📚 Все команды','commands')],[('🍯 К стойке Роя','home')]]))
+        self.send(uid,'🗝 СТОЙКА МАСТЕРА\n\nИгрокам сюда не заглядывать.\nЗаявки, награды и книга гостей — всё под рукой.',kb([[('👥 Гости','adminplayers'),('📨 Все заявки','adminpending')],[('🪙 Изменить золото','select:gold'),('✨ Вдохновение','select:inspire')],[('🖐 Выдать ход','select:visit'),('📜 Изменить доску','boardedit')],[('🎁 Лавка, Рой и копилка','features')],[('🗺 Настройки карты','mapadmin'),('💾 Создать копию','backup')],[('📚 Все команды','commands')],[('🍯 К стойке Роя','home')]]))
 
     def ui_dispatch(self,uid,tail):
+        if self.token_dispatch(uid,tail):return
+        if self.map_dispatch(uid,tail):return
         if self.character_ui(uid,tail):return
         if self.feature_ui(uid,tail):return
         args=tail.split();action=args[0] if args else 'home'
+        if action=='mapadmin':self.map_command(uid,'/mapadmin','');return
         if action=='cancel':self.ui_clear(uid);self.ui_home(uid);return
         if action=='home':self.ui_home(uid);return
         if action=='rules':
@@ -163,22 +167,37 @@ class InterfaceMixin:
             if tier not in ROOMS:raise RuleError('Неизвестное жильё.')
             self.new_request(self.e.request(uid,'rent',{'tier':tier}));return
         if action=='actions':
-            self.send(uid,'🖐 ТВОЙ ХОД\n\nРасскажи, что делает герой. Мастер проверит положение токена и назначит проверку, если она нужна.',kb([[('Основное действие','action:base')],[('✨ Вдохновение Роя','action:inspiration')],[('🍯 К стойке Роя','home')]]));return
+            p=self.e.player(uid);rows=[]
+            if p['turn']:rows.append([('Основное действие','action:base')])
+            if p['inspiration'] and not p['extra_used'] and p['visit'] and not p['turn']:rows.append([('✨ Вдохновение Роя','action:inspiration')])
+            rows.append([('🗺 Передвижение','map'),('🍯 Меню','home')])
+            text='🖐 ТВОЙ ХОД\n\n'+('Выбери доступное действие.' if len(rows)>1 else 'Сейчас нет доступного действия. Передвижение учитывается отдельно. Новый ход выдаёт мастер или недельный режим.')
+            self.send(uid,text,kb(rows));return
         if action=='action':
             resource=args[1]
-            if resource not in ('base','inspiration'):raise RuleError('Неизвестное действие.')
+            self.e.action_available(uid,resource)
             self.ui_set(uid,'action',payload={'resource':resource});self.ui_prompt(uid,'🖐 Что делает твой герой?\n\nОпиши действие одним сообщением.');return
         if action=='storage':
             if args[1] not in ('in','out'):raise RuleError('Неизвестное направление.')
             self.ui_set(uid,'storage',payload={'direction':args[1]});self.ui_prompt(uid,'🪙 Сколько золотых '+('положить в сундук?' if args[1]=='in' else 'забрать из сундука?')+'\nПеренос подтверждает мастер у карты.');return
         if action=='spend':self.ui_set(uid,'spend');self.ui_prompt(uid,'🍺 Сколько золотых хочешь потратить?');return
         if action=='trade':
-            rows=self.e.db.execute('SELECT uid,name FROM players WHERE approved=1 AND uid!=? ORDER BY name LIMIT 50',(uid,)).fetchall()
-            buttons=[[(r['name'],f'partner:{r["uid"]}')] for r in rows]+[[('🍯 Меню','home')]]
-            self.send(uid,'🤝 СДЕЛКА\n\nС кем договариваемся?',kb(buttons));return
+            self.e.require_alive(uid)
+            page=int(args[1]) if len(args)>1 else 0
+            if page<0:raise RuleError('Неверная страница.')
+            rows=self.e.db.execute('SELECT uid,name FROM players WHERE approved=1 AND dead=0 AND paused=0 AND uid!=? ORDER BY name',(uid,)).fetchall()
+            rows=[r for r in rows if not self.e.map_enabled() or self.e.map_adjacent(uid,r['uid'])]
+            buttons=[[(r['name'],f'partner:{r["uid"]}')] for r in rows[page*12:page*12+12]]
+            nav=[]
+            if page:nav.append(('←',f'trade:{page-1}'))
+            if len(rows)>(page+1)*12:nav.append(('→',f'trade:{page+1}'))
+            if nav:buttons.append(nav)
+            buttons.append([('🗺 Карта','map'),('🍯 Меню','home')])
+            self.send(uid,'🤝 СДЕЛКА\n\n'+('С кем договариваемся?' if rows else 'Рядом нет живых доступных партнёров. Подойди по карте.'),kb(buttons));return
         if action=='partner':
             other=int(args[1]);self.e.player(other)
             if other==uid:raise RuleError('Выбери другого героя.')
+            self.e.map_trade_check(uid,other)
             self.ui_set(uid,'trade',payload={'other':other});self.ui_prompt(uid,'🤝 Сколько золота отдаёшь ты?\nЕсли только предмет — напиши 0.');return
         if action=='requests':
             rows=self.e.db.execute("SELECT id FROM requests WHERE status='pending' AND (a=? OR b=?) ORDER BY id DESC LIMIT 20",(uid,uid)).fetchall()
@@ -191,6 +210,7 @@ class InterfaceMixin:
         if not st:raise RuleError('Ввод завершён или истёк. Открой /menu.')
         flow,step,p=st['flow'],st['step'],st['payload'];text=text.strip()
         if not text or len(text)>3500:raise RuleError('Нужен текст от 1 до 3500 символов.')
+        if self.map_answer(uid,text,st):return
         if self.character_answer(uid,text,st):return
         if self.feature_answer(uid,text,st):return
         def amount(zero=False):
@@ -206,6 +226,7 @@ class InterfaceMixin:
             self.tell_admins(f'📖 Новый гость: {p["name"]}, {text}. ID {uid}. Открой меню мастера → Гости.')
             self.send(uid,'📖 Записал. Теперь дождёмся подтверждения мастера.',BACK);return
         if flow=='action':
+            self.e.action_available(uid,p['resource'])
             rid=self.e.request(uid,'action',{'resource':p['resource'],'text':text});self.ui_clear(uid);self.new_request(rid);return
         if flow=='storage':
             rid=self.e.request(uid,'storage',{'direction':p['direction'],'amount':amount()});self.ui_clear(uid);self.new_request(rid);return
